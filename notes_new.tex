@@ -1,0 +1,228 @@
+\documentclass[11pt, a4paper]{article}
+
+\usepackage{framed}
+
+\usepackage{natbib}
+\usepackage{enumerate}
+
+\usepackage{wrapfig}
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage[thmmarks]{ntheorem}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{multirow}
+
+\usepackage{tikz}
+\usepackage{pgflibraryarrows}
+\usepackage{pgflibrarysnakes}
+\usepackage{sidecap}
+
+\theoremstyle{nonumberplain}
+\theorempostskip{10pt}
+\theoremseparator{:}
+\theoremsymbol{\ensuremath{_\square}}
+\newtheorem{proof}{Dem.}
+
+\theoremstyle{plain}
+\theoremsymbol{}
+\newtheorem{claim}{Afirmação}
+
+\theoremstyle{plain}
+\theoremsymbol{}
+\newtheorem{lemma}{Lema}
+
+\title{Notas - preferências sobre menus}
+\author{}
+
+\DeclareMathOperator*{\argmax}{\arg\!\max}
+
+\definecolor{cadmiumgreen}{rgb}{0.0, 0.42, 0.24}
+
+\begin{document}
+\maketitle 
+
+\tableofcontents
+
+\section{Setup}
+Seja $B$ um conjunto finito de alternativas e $\Delta(B)$ o conjunto das medidas de probabilidade sobre $B$. $\mathbb{X}$ representa os subconjuntos fechados de $\Delta(B)$, os menus. $\succsim$ denotará a preferência sobre $\mathbb{X}$. Para a análise subsequente é impportante considerar a seguinte lista de axiomas.
+\begin{description}
+\item [\textit{Order}] $\succsim$ é completa e transitiva  
+\item [\textit{Continuity}] Para todo $x$, $\{y\in \mathbb{X}:y\succsim x\}$ e $\{y\in \mathbb{X}:x\succsim y\}$ são fechados\footnote{Lembre-se que, apenas no caso de $\succsim$ ser ordem, isso é equivalente a dizer que $\succsim$ é um subconjunto fechado de $\mathbb{X}\times\mathbb{X}$}. 
+\item [\textit{Monotonicity}] Para quaisquer $x$, $x'$ $\in\mathbb{X}$ com $x\begin{small}\supseteq\end{small} x'$, temos $x\succsim x'$. 
+%\item [\textit{Independence}] Para quaisquer $x$,$x'$ e $y$ e $\lambda\in(0,1)$, $$x\succsim x'\Leftrightarrow \lambda x+(1-\lambda)y\succsim \lambda x'+(1-\lambda)y$$
+\item [\textit{Indifference to Randomization}] $x\sim co(x)$, o fecho convexo de $x$. 
+\item [\textit{Nondegeneracy}] Existem menus $x$,$x'$ $\in \mathbb{X}$ tais que $x\succ x'$.
+\item [\textit{Preference Convexity}] $x\succsim x' \Rightarrow \lambda x +(1-\lambda)x'\succsim x'$.
+\item[\textit{Finiteness}] Para todo $x$, existe um menu finito $x^f$ tal que, para todo $\lambda\in (0,1)$ e qualquer menu $x'$, $\lambda x +(1-\lambda)x' \sim \lambda x^f +(1-\lambda)x'$.
+\end{description}  
+
+Adicionalmente, suponha que o tomador de decisão tenha certeza \textit{ex ante} de que há uma alternativa $b_*$ que é o pior resultado \textit{ex post} - o mesmo vale para a loteria degenerada $\delta_{b_*}$. Assumiremos também que o agente saiba \textit{ex ante} que o menu $\Delta(B)$ lhe trará o melhor resultado \textit{ex post} ainda que não conheça qual loteria maximizará sua utilidade após a realização do estado.   
+
+\begin{description}
+\item[\textit{Worst}] Para a pior alternativa $b_*$, temos $\lambda\left(x\cup \{b_*\}\right)+(1-\lambda)y\sim \lambda x + (1-\lambda)y$ para quaisquer menus $x,y\in \mathbb{X}$ e $\lambda\in (0,1)$. 
+\end{description}
+
+\textit{Worst} formaliza a idéia de que o agente não experimenta ganhos de flexibilidade ao incluir  em qualquer menu $x$ a loteria degenerada da pior alternativa $b_*$. Um raciocínio rápido nos garante que $$\Delta(B)\sim B\succsim x\succsim \{b_*\} \; \text{e} \; B\succ \{b_*\}$$ para todo $x$. Por \textit{Indifference to Randomization} e \textit{Monotonicity}, $\Delta(B)\sim B \succsim x$. Além disso, dado que o agente está certo de que $b_*$ é o pior resultado, $x\succsim \{b_*\}$ vale para todo $x$. Por fim, \textit{Monotonicity} garante que $B\succsim \{b_*\}$. Caso $B \sim \{b_*\}$, contrariamos \textit{Nondegeneracy}. 
+
+Tendo conhecido o comportamento do agente face aos menus $\Delta(B)$ e $\{b_*\}$, podemos definir o menu certo $x_p$ como $x_p:=p\Delta(B)+(1-p)\{b_*\}$, i.e. a composição do melhor e pior menu com peso $p\in [0,1]$. O axioma abaixo enuncia a independência de $\succsim$ com relação a menus certos.
+
+\begin{description}
+\item [\textit{Certainty Independence}] Para $\lambda\in (0,1)$ e $x_p=p\Delta(B)+(1-p)b_*$, temos $$x\succsim x' \Leftrightarrow \lambda x +(1-\lambda)x_p\succsim \lambda x' + (1-\lambda)x_p$$ 
+
+%\item [\textit{Mild Continuity}] Para todo $x$, $\{p\in[0,1]:x_p\succsim x\}$ e $\{p\in[0,1]:x\succsim x_p\}$ são fechados.
+\end{description}
+
+
+
+\begin{claim}Para todo menu $x$, existe $p\in[0,1]$ tal que $x\sim x_p=p\Delta(B)+(1-p)b_*$. \end{claim}
+\begin{proof}
+Para um menu qualquer $x$, defina $S:=\{p\in[0,1] : x_p\succsim x\}$, $I:=\{p\in[0,1] : x\succsim x_p\}$ e note que $1\in S$ e $0\in I$. Como $\succsim$ é contínua e completa, podemos afirmar que $S$ e $I$ são fechados e $S\cup I=[0,1]$. Dada a conexidade de $[0,1]$, sabemos que $S\cap I\neq \emptyset$. Portanto, para $p\in S\cap I$, temos que $x\sim x_p$.   
+\end{proof}
+
+Na próxima seção, construiremos a representação funcional de $\succsim$ sobre o espaço de menus $\mathbb{X}$ a partir da maior restrição dessa relação que mantém o ordenamento para misturas entre menus, isto é, a maior restrição que satisfaz o axioma de Independência, tradicional na literatura de preferências sob incerteza. 
+
+\section{Obtenção da representação funcional de $\succsim$}
+
+Suponha que $\succsim$ satisfaz \textit{Order}, \textit{Nondegeneracy}, \textit{Indifference to randomization}, \textit{Preference Convexity}, \textit{Certainty Independence}, \textit{Continuity}, \textit{Monotonicity}, \textit{Worst} e \textit{Finiteness}. Considere agora seu maior subconjunto que contempla Independência. Para isso, defina a relação $\succsim^*$ sobre $\mathbb{X}$ por $$x\succsim^* x' \Leftrightarrow \lambda x + (1-\lambda)y \succsim \lambda x' + (1-\lambda)y$$ para todo $y\in \mathbb{X}$ e $\lambda\in(0,1)$.
+
+Naturalmente, algumas das propriedades de $\succsim$ serão herdadas por sua restrição $\succsim^*$. \textit{Finitiness} e \textit{Worst}, em especial, assumirão formatos mais intuitivos, como veremos em seguida. Contudo, observe que, como a relação primitiva satisfaz independência apenas com relação aos menus certos $x_p$, a relação induzida $\succsim^*$ não é completa sobre o espaço de menus. Exploramos essas constatações na sequência de afirmações abaixo.
+
+
+\begin{claim}$\succsim^*$ é uma pré-ordem. \end{claim}
+\begin{proof} Pela reflexividade de $\succsim$, é claro que $x\succsim^* x$ para todo $x\in \mathbb{X}$. Suponha $x$,$y$ e $z$ tais que $x\succsim^* y$ e $y\succsim^* z$. Então, para um menu $x'$ qualquer e $\lambda\in(0,1)$, temos $\lambda x + (1-\lambda)x'\succsim \lambda y + (1-\lambda)x'\succsim \lambda z + (1-\lambda)x'$. Para concluir, basta usar a transitividade de $\succsim$.
+\end{proof}
+
+
+\begin{claim}$\succsim^*$ satisfaz Monotonicity. \end{claim}
+\begin{proof}
+Suponha $x$ e $x'$ tais que $x$\begin{small}$\supseteq$\end{small}$x'$, mas não vale que $x\succsim^* x'$. Temos dois casos, (i) existe um menu $y$ tal que $\lambda x + (1-\lambda)y\succsim \lambda x' + (1-\lambda)y$ não é verdade para todo $\lambda\in(0,1)$ ou (ii) para algum $\lambda\in(0,1)$, o mesmo ocorre para qualquer menu $y$. Em ambos os casos, Monotonicity em $\succsim$ implica que $\lambda x + (1-\lambda)y \nsupseteq \lambda x' + (1-\lambda)y$, uma contradição.   
+\end{proof}
+
+\begin{claim} Sejam $\{x^m\}_{m\in\mathbb{N}}$ e $\{y^m\}_{m\in\mathbb{N}}$ sequências em $\mathbb{X}$ convergentes para $x$ e $y$, respectivamente, tais que $x^m\succsim^* y^m$ $\forall m\in \mathbb{N}$. Então $x\succsim^* y$.\end{claim}
+\begin{proof}
+Pela definição de $\succsim^*$, temos que para todo $\lambda\in (0,1)$ e qualquer menu $z$, temos $$\lambda x^m + (1-\lambda)z \succsim \lambda y^m + (1-\lambda)z$$ Como $\succsim$ satisfaz Order e Continuity, concluímos que $\lambda x + (1-\lambda)z \succsim \lambda y + (1-\lambda)z$ e, portanto, $x\succsim^* y$.
+\end{proof}
+
+\begin{claim}$\succsim^*$ satisfaz \emph{Nondegeneracy}\end{claim}
+\begin{proof}
+Suponha que $\Delta(B)\sim^* b_*$. Isto implica, pela definição de $\succsim^*$, que $\lambda Delta(B)+(1-\lambda)y \sim \lambda b_*+(1-\lambda)y$ para todo $y \in \mathbb{X}$ e $\lambda \in (0,1)$. Seja, então, $y=x_p$ e, por \emph{Certainty Independence}, temos que $Delta(B)\sim b_*$, o que viola \emph{Nondegeneracy} em $\succsim$.
+\end{proof}
+
+\begin{claim}$\succsim^*$ satisfaz \emph{Indifference to randomization}.\end{claim}
+\begin{proof}
+Suponha que, para um menu $x$, não seja verdade que $x\sim^* co(x)$. Como $\succsim^*$ satisfaz \emph{Monotonicity}, isto implica que $co(x)\succ^* x$ e, por conseguinte, que $\lambda co(x)+(1-\lambda)y \succ \lambda x+(1-\lambda)y$ para todo $y \in \mathbb{X}$ e $\lambda \in (0,1)$. Fazendo $y=x_p$, \emph{Certainty Independence} nos permite afirmar que $co(x)\succ x$, o que viola \emph{Indifference to Randomization} em $\succsim$.  
+\end{proof}
+
+%\begin{claim} O conjunto $\left\{\lambda\in[0,1]:\lambda x + (1-\lambda)y\succsim^*\lambda x' + (1-\lambda)y\right\}$ é fechado para quaisquer $x$,$x'$ e $y$.\end{claim}
+%\begin{proof}
+%Considere uma sequência convergente no conjunto. Pela continuidade de $\succsim^*$, o limite desta sequência também pertencerá ao conjunto.
+%\end{proof}
+
+\begin{claim}(Finitiness*)Para todo menu $x$, existe um subconjunto finito $x^f$ tal que $x\sim^* x'$.\end{claim}
+\begin{proof}
+Basta utilizar Finitiness de $\succsim$ e a definição de $\succsim^*$. 
+\end{proof}
+
+\begin{claim} (Worst*) Para a pior alternativa $b_*$, temos $x\cup\{b_*\}\sim^* x$.\end{claim}
+\begin{proof}
+Implicação de \textit{Worst} em $\succsim$ e da definição de $\succsim^*$. 
+\end{proof}
+
+
+
+Repare que a Afirmação 3 nos ensina que, se dois menus são \begin{small}$\subseteq$\end{small}-comparáveis, então também serão \begin{small}$\succsim^*$\end{small}-comparáveis. Além disso, a Afirmação 4 nos mostra que a continuidade de $\succsim$ é preservada em $\succsim^*$. Novamente, um raciocínio análogo ao feito para a relação $\succsim$ nos mostra que $$B\sim^*\Delta(B)\succsim^* x\succsim^* b_* \text{ e } B\succ^* b_*$$
+
+Vamos, por fim, demonstrar que $\succsim^*$ satisfaz o axioma da Independência. 
+
+\begin{claim} (\textit{Independence}) $x\succsim^*x'$ se, e somente se, $\lambda x + (1-\lambda)y\succsim^* \lambda x' + (1-\lambda)y$ para quaisquer menus $x,x',y\in \mathbb{X}$ e para todo $\lambda \in [0,1]$.\end{claim}
+\begin{proof}
+Considere menus $x$ e $x'$ tais que $x\succsim^* x'$. Então, para quaisquer $\lambda$,$\theta$ $\in (0,1)$ e $y,z\in\mathbb{X}$, temos
+\begin{align*}
+\theta(\lambda x + (1-\lambda)y)+(1-\theta)z \;&=\; \theta\lambda x + (1-\theta\lambda)\left(\frac{\theta(1-\lambda)}{1-\theta\lambda}y+\frac{1-\theta}{1-\theta\lambda}z\right)\\
+&\succsim\;  \theta\lambda x' + (1-\theta\lambda)\left(\frac{\theta(1-\lambda)}{1-\theta\lambda}y+\frac{1-\theta}{1-\theta\lambda}z\right)\\
+&=\; \theta(\lambda x' + (1-\lambda)y)+(1-\theta)z
+\end{align*}
+Pela definição de $\succsim^*$, concluímos que $\lambda x + (1-\lambda)y\succsim^*\lambda x' + (1-\lambda)y$. 
+Agora, suponha que $\lambda x + (1-\lambda)y\succsim^*\lambda x' + (1-\lambda)y$ para $\lambda\in(0,1)$ e um menu $y$ qualquer. Pela Afirmação 5, o conjunto $\left\{\lambda\in[0,1]:\lambda x + (1-\lambda)y\succsim^*\lambda x' + (1-\lambda)y\right\}$ é um conjunto fechado e, portanto, $$\hat{\lambda}:=\max\left\{\lambda\in[0,1]:\lambda x + (1-\lambda)y\succsim^*\lambda x' + (1-\lambda)y\right\}$$ está bem definido. Defina ainda $\theta:=\frac{1}{1+\hat{\lambda}}$. Então,
+\begin{align*}
+\theta(\hat{\lambda}x+(1-\hat{\lambda})y)+(1-\theta)x\;&\succsim^*\;\theta(\hat{\lambda}x'+(1-\hat{\lambda})y)+(1-\theta)x\\
+&\;= \theta(\hat{\lambda}x+(1-\hat{\lambda})y)+(1-\theta)x'\\
+&\;\succsim^* \theta(\hat{\lambda}x'+(1-\hat{\lambda})y)+(1-\theta)x'\\  
+\end{align*} pela primeira parte desta demonstração. Usando a transitividade de $\succsim^*$ e reescrevendo os coeficientes da expressão acima, temos $$\frac{2\hat{\lambda}}{1+\hat{\lambda}}x+\frac{1-\hat{\lambda}}{1+\hat{\lambda}}y \succsim^* \frac{2\hat{\lambda}}{1+\hat{\lambda}}x'+\frac{1-\hat{\lambda}}{1+\hat{\lambda}}y \qquad (\star)$$ Como $\hat{\lambda}$ é máximo, $\hat{\lambda}\geq \frac{2\hat{\lambda}}{1+\hat{\lambda}}$ e, consequentemente, $\hat{\lambda}(\hat{\lambda})\geq 0$. Isto implica que $\hat{\lambda}=1$ e, por $(\star)$, $x\succsim^* x'$.
+\end{proof}
+
+
+{\color{cadmiumgreen}Inserir uma discussão sobre o resultado do Kochov e enunciá-lo como está no paper. No lema, adaptaríamos para os menus fechados e finitude do espaço subjetivo.\\
+Colocar o comentário de que não é necessário indexar as utilidades no estado da natureza etc.}
+
+
+\begin{lemma} A preordem $\succsim^*$ satisfaz \emph{Continuity}, \emph{Nondegeneracy}, \emph{Independence}, \emph{Monotonicity} e \emph{Finitiness*} se, e somente se, existe um conjunto finito de funções $N=\{u \in \mathbb{R}^B_+:u(b_*)=0\text { e }\max_{B}u(b)=1\}$ e um conjunto fechado e convexo $\Pi$ de medidas de probabilidade sobre $N$ tal que:
+\begin{enumerate}[(i)]
+\item $x\succsim^* y$ se, e somente se, $$ \sum_{u\in N} \pi(u)\max_{\beta\in x}u(\beta) \geq \sum_{u\in N} \pi(u)\max_{\beta\in y}u(\beta)\quad \forall\pi\in\Pi$$  
+\item cada $u \in N$ é uma função utilidade esperada, i.e. $$u(\beta)=\sum_{b\in B} \beta(b)u(b)$$ 
+\end{enumerate}     
+\end{lemma}
+\begin{proof}
+Prova a finitude de $N$, invoca o resultado do Kochov e normaliza as utilidades.
+Normalização:$$u(b)=\frac{U(b,s)-U(b_*,s)}{\max_b U(b,s)-U(b_*,s)}$$ e $$ \hat{\pi}(u)=\mu(s)\left[max_b U(b,s)-U(b_*,s)\right]$$ e $$\pi(u)=\frac{\hat{\pi}(u)}{\sum_{u\in N}\hat{\pi}(u)}$$ 
+\end{proof}
+
+Seja $w:\mathbb{X}\times \Pi\rightarrow \mathbb{R}$ a função caracterizada por $$w(x,\pi)=\sum_{u\in N} \pi(u)\max_{\beta\in x}u(\beta)$$ i.e. a função que representa a preferência $\succsim^*$ sobre menus e, vamos examinar o valor que ela assume nos menus certos $x_p$. Vejamos:
+\begin{align*}
+w(x_p,\pi)&=\sum_{u\in N} \pi(u)\max_{\beta\in x_{p}}u(\beta)\\
+&= \sum_{u\in N} \pi(u)\max_{\beta\in x_{p}}u(p\beta'+(1-p)\delta_{b_*}),\quad \beta'\in \Delta(B)\\
+&=\sum_{u\in N} \pi(u)\max_{\beta\in x_{p}}\left\lbrace p \sum_{b\in B}\beta'(b)u(b)+(1-p)\sum_{b\in B}\delta_{b_*}(b)u(b)\right\rbrace \\
+&=\sum_{u\in N} \pi(u)p\max_{\beta'\in \Delta(B)}\sum_{b\in B}\beta'(b)u(b), \quad pois \; u(b_*)=0\; \text{e}\; \delta_{b_*}(b)=0\; \forall b\neq b_*\\
+&= \sum_{u\in N} \pi(u) p \max_{\beta'\in \Delta(B)} u(\beta')\\
+&= p\sum_{u\in N}\pi(u)\cdot 1\\
+&=p
+\end{align*}
+donde a penúltima igualdade é consequência do fato de que o elemento que maximiza $u(\beta')$ é a loteria degenerada $\delta_{\bar{b}}$ na qual $\bar{b}:=\argmax u(b)$, ou seja, $u(\bar{b})=1$. Note ainda que $w(x_p,\pi)=p$ para qualquer \textit{prior} $\pi\in\Pi$. Portanto, podemos afirmar que para dois menus certos $x_p$ e $x_{p'}$, temos que $x_p\succsim^* x_{p'}$ se, e somente se, $p\geq p'$. 
+
+{\color{cadmiumgreen} Introduzir a NCI e discorrer sobre ela.}
+
+\begin{lemma}A relação $\succsim$ satisfaz \emph{Negative Certainty independence (NCI)}, i.e. se $x\succsim x_p$, então $\lambda x +(1-\lambda)y\succsim \lambda x_p +(1-\lambda)y$ para todo $\lambda\in(0,1)$ e $y\in \mathbb{X}$.\end{lemma}
+\begin{proof}
+Tome $x$ e $x_p$ em $\mathbb{X}$, com um $p$ qualquer no intervalo $[0,1]$, tais que $x\succsim x_p$. Pela Afirmação 1, sabemos que existe $\bar{p}\in [0,1]$ tal que $x\sim x_{\bar{p}}$. Logo, $x\sim x_{\bar{p}}\succsim x_p$. Afirmamos que $$\lambda x_{\bar{p}} +(1-\lambda)y\succsim \lambda x_p +(1-\lambda)y$$
+para qualquer menu $y$ e todo $\lambda\in (0,1)$, pois, caso contrário, não seria verdade que $x_{\bar{p}}\succsim^*x_p$. Pelo Lema 1 e a discussão sobre o valor da utilidade nos menus certos, isto implica que $p>\bar{p}$ e, consequentemente, $x_p\succ^*x_{\bar{p}}$. Aplicando a definição de $\succsim^*$, isto significa que $\theta x_p + (1-\theta)z\succ \theta x_{\bar{p}}+(1-\theta)z$ para todo menu $z$ e $\theta\in (0,1)$. Agora veja que para $z:=x_p$, temos $x_p\succ \theta x_{\bar{p}} + (1-\theta)x_p$, o que viola \emph{Preference Convexity}.
+
+Se $y\sim x\sim x_{\bar{p}}$, então $x_{\bar{p}}=\lambda x_{\bar{p}} + (1-\lambda)x_{\bar{p}}\sim\lambda x_{\bar{p}}+(1-\lambda)y$, por \emph{Certainty Independence}. \emph{Preference Convexity} nos permite afirmar que $\lambda x+(1-\lambda)y \succsim x \sim x_{\bar{p}} \sim \lambda x_{\bar{p}}+(1-\lambda)y$. Usando transitividade e a discussão no parágrafo anterior, chegamos em $\lambda x+(1-\lambda)y\succsim \lambda x_p + (1-\lambda)y$. 
+
+Contudo, se não vale que $y\sim x$, então considere o ato simples $x_{p'}:=\left(\frac{\theta}{1-\theta}\right)x_{\hat{p}}+\left(\frac{1-2\theta}{1-\theta}\right)x_{\bar{p}}$, com $\theta\in \left(0,\frac{1}{2}\right)$ e $x_{\hat{p}}$ o menu simples tal que $y\sim x_{\hat{p}}$. Observe que   
+\begin{align*}
+\theta x_{\bar{p}} + (1-\theta)x_{p'}&=\theta x_{\bar{p}} + (1-\theta)\left[ \left(\frac{\theta}{1-\theta}\right)x_{\hat{p}}+\left(\frac{1-2\theta}{1-\theta}\right)x_{\bar{p}}\right] \\ 
+&=\theta x_{\bar{p}} + \theta x_{\hat{p}} + (1-2\theta)x_{\bar{p}} \\
+&=\theta x_{\hat{p}} + (1-\theta)x_{\bar{p}} \\
+&\sim \theta y + (1-\theta) x_{\bar{p}}, \text{ por \emph{Certainty Independence}}
+\end{align*}
+Aplicando \emph{Certainty Independence} mais uma vez, temos $$\theta x + (1-\theta)x_{p'}\sim \theta x_{\bar{p}} + (1-\theta)x_{p'}\sim \theta y + (1-\theta) x_{\bar{p}}$$
+Ao aplicarmos \emph{Preference Convexity} na expressão acima, obtemos 
+\begin{align*}
+\lambda (\theta x + (1-\theta)x_{p'})+(1-\lambda)(\theta y + (1-\theta) x_{\bar{p}}) &\succsim \theta x_{\bar{p}} + (1-\theta)x_{p'}\\
+&= \lambda (\theta x_{\bar{p}} + (1-\theta)x_{p'}) + (1-\lambda)(\theta x_{\bar{p}} + (1-\theta)x_{p'})\\
+&\sim \lambda(\theta x_{\bar{p}} + (1-\theta)x_{p'})+(1-\lambda)(\theta y + (1-\theta) x_{\bar{p}})
+\end{align*}
+cuja última linha é consequência de \emph{Certainty Independence}. Podemos reescrever a expressão acima da seguinte forma
+$$ \theta (\lambda x + (1-\lambda)y)+(1-\theta)(\lambda x_{p'}+(1-\lambda)x_{\bar{p}}) \succsim \theta (\lambda x_{\bar{p}} + (1-\lambda)y)+(1-\theta)(\lambda x_{p'}+(1-\lambda)x_{\bar{p}})$$
+donde \emph{Certainty Independence} nos permite afirmar que $\lambda x + (1-\lambda)y\succsim \lambda x_{\bar{p}} + (1-\lambda)y$. Rocorde-se que $\lambda x_{\bar{p}} + (1-\lambda)y\succsim \lambda x_p + (1-\lambda)y$, do início da demonstração. Como $\succsim$ é transitiva, concluímos que $\lambda x + (1-\lambda)y\succsim \lambda x_p + (1-\lambda)y$ para todo $\lambda \in (0,1)$ e $y\in \mathbb{X}$.
+\end{proof}
+
+Vamos agora estabelecer a representação da relação $\succsim$ original a partir dos resultados do Lema 1. Recorde que, do Lema 2, aprendemos que as relações $\succsim$ e $\succsim^*$ coincidem para os menus certos, ou seja
+\begin{align*}
+x_p\sim x\succsim y\sim x_{\bar{p}}&\Leftrightarrow x_p\succsim^* x_{\bar{p}}\\
+&\Leftrightarrow w(x_p,\pi)\geq w(x_{\bar{p}},\pi)\; \forall\pi\in\Pi \\
+&\Leftrightarrow p\geq \bar{p}
+\end{align*}
+
+Ainda em consequência do Lema 2, sabemos que $x\succsim^* x_p$. Logo, $$w(x,\pi)\geq w(x_p,\pi)=p\quad\forall\pi \in \Pi$$ e, consequentemente, $\min_{\pi\in\Pi}w(x,\pi)\geq p$. Mas, agora, suponha que $\min_{\pi\in\Pi}w(x,\pi)> p$. Então, para qualquer $p'\in (p,\min_{\pi\in\Pi}w(x,\pi))$, temos que $x_{p'}\succ^* x_p\sim^* x$, uma contradição. Portanto, $$\min_{\pi\in\Pi}\sum_{u\in N} \pi(u)\max_{\beta\in x}u(\beta)=p$$   
+
+\end{document}
