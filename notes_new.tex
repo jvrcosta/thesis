@@ -173,12 +173,12 @@ Colocar o comentário de que não é necessário indexar as utilidades no estado
 \end{lemma}
 \begin{proof}
 Prosseguiremos a demonstração do lema em dois passos.\\
-\textbf{Passo 1:} Pelo Teroema 6 de \cite{Dekel2009}, sabemos que \emph{Finitiness} é condição suficiente para que exista um conjunto finito de estados da natureza $S$ relevante para o tomador de decisão, i.e. a representação de $\succsim^*$ admite a forma finita aditiva. Logo, podemos reescrever o resultado de \cite{Kochov2007} da seguinte maneira $$x\succsim^* y \text{ se, e somente se, } \sum_{U\in S} \mu(U)\max_{\beta\in x}U(\beta) \geq \sum_{U\in S} \mu(U)\max_{\beta\in y}U(\beta)$$ 
-mantendo o formato de utilidade esperada de $U\in S$. Como os menus em nosso modelo são subconjuntos fechados de $\Delta(B)$ e as utilidades vNM são contínuas, $\max_{\beta\in x}U(\beta)$ está bem definido para qualquer menu $x$.\\
+\textbf{Passo 1:} Pelo Teroema 6 de \cite{Dekel2009}, sabemos que \emph{Finitiness} é condição suficiente para que exista um conjunto finito de estados da natureza, $S$, relevante para o tomador de decisão, i.e. a representação de $\succsim^*$ admite a forma finita aditiva. Logo, podemos reescrever o resultado de \cite{Kochov2007} da seguinte maneira $$x\succsim^* y \text{ se, e somente se, } \sum_{U\in S} \mu(U)\max_{\beta\in x}U(\beta) \geq \sum_{U\in S} \mu(U)\max_{\beta\in y}U(\beta)$$ 
+mantendo o formato de utilidade esperada para $U\in S$. Como os menus em nosso modelo são subconjuntos fechados de $\Delta(B)$ e as utilidades vNM são contínuas, $\max_{\beta\in x}U(\beta)$ está bem definido para qualquer menu $x$.\\
 \textbf{Passo 2:} Mas agora note que podemos normalizar os estados da natureza de modo a obter o conjunto $N$ utilizado na representação de \cite{Epstein2007}. Para isso, escreva:
 $$u(b)=\frac{U(b)-U(b_*)}{\max_b U(b)-U(b_*)}$$  
 e veja que, de fato, $u(b_*)=0$ e $\max_{B} u(b)=1$. Todavia, isso não necessariamente preserva o ordenamento dos menus e, para corrigir esse problema, teremos de normalizar as medidas de probabilidade em $\Delta$ da seguinte maneira:
-$$ \hat{\pi}(u)=\mu(U)\left[max_B U(b)-U(b_*)\right]$$ e, finalmente, para que as medidas normalizadas somem a unidade, precisamos reescrevê-las como abaixo:  $$\pi(u)=\frac{\hat{\pi}(u)}{\sum_{u\in N}\hat{\pi}(u)}$$ 
+$$ \hat{\pi}(u)=\mu(U)\left[max_B U(b)-U(b_*)\right]$$ Finalmente, para que as medidas normalizadas somem a unidade, precisamos reescrevê-las como abaixo:  $$\pi(u)=\frac{\hat{\pi}(u)}{\sum_{u\in N}\hat{\pi}(u)}$$ 
 \end{proof}
 
 Seja $w:\mathbb{X}\times \Pi\rightarrow \mathbb{R}$ a função caracterizada por $$w(x,\pi)=\sum_{u\in N} \pi(u)\max_{\beta\in x}u(\beta)$$ i.e. a função que representa a preferência $\succsim^*$ sobre menus e, vamos examinar o valor que ela assume nos menus certos $x_p$. Vejamos:
@@ -191,9 +191,9 @@ w(x_p,\pi)&=\sum_{u\in N} \pi(u)\max_{\beta\in x_{p}}u(\beta)\\
 &= p\sum_{u\in N}\pi(u)\cdot 1\\
 &=p
 \end{align*}
-donde a penúltima igualdade é consequência do fato de que o elemento que maximiza $u(\beta')$ é a loteria degenerada $\delta_{\bar{b}}$ na qual $\bar{b}:=\argmax u(b)$, ou seja, $u(\bar{b})=1$. Note ainda que $w(x_p,\pi)=p$ para qualquer \textit{prior} $\pi\in\Pi$. Portanto, podemos afirmar que para dois menus certos $x_p$ e $x_{p'}$, temos que $x_p\succsim^* x_{p'}$ se, e somente se, $p\geq p'$. 
+donde a penúltima igualdade é consequência do fato de que o elemento que maximiza $u(\beta')$ é a loteria degenerada $\delta_{\bar{b}}$ na qual $\bar{b}:=\argmax u(b)$, ou seja, $u(\bar{b})=1$. É importante notar ainda que $w(x_p,\pi)=p$ para qualquer \textit{prior} $\pi\in\Pi$. Portanto, podemos afirmar que para dois menus certos $x_p$ e $x_{p'}$, temos que $x_p\succsim^* x_{p'}$ se, e somente se, $p\geq p'$. 
 
-{\color{blue} Introduzir a NCI e discorrer sobre ela.}
+Tendo estudado o valor que $w$ assume sobre os menus certos $x_p$, precisamos ainda de uma propriedade da relação primitiva $\succsim$ referente à misturas convexas entre menus. Mais precisamente, mostramos abaixo que o Lema 1, \emph{Preference Convexity} e \emph{Certainty Independence} são suficientes para afirmar que se um menu é $\succsim$-preferido a um menu certo, misturá-los a um terceiro menu com pesos iguais não reverterá o ordenamento original\footnote{\color{cadmiumgreen}Colocar uma referência a Dillenberger (2010)}.  
 
 \begin{lemma}A relação $\succsim$ satisfaz \emph{Negative Certainty Independence (NCI)}, i.e. se $x\succsim x_p$, então $\lambda x +(1-\lambda)y\succsim \lambda x_p +(1-\lambda)y$ para todo $\lambda\in(0,1)$ e $y\in \mathbb{X}$.\end{lemma}
 \begin{proof}
