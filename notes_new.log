@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  22 MAR 2015 14:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  22 MAR 2015 22:20
 entering extended mode
 **notes_new.tex
 
@@ -51,18 +51,137 @@ LaTeX Info: Redefining \cite on input line 694.
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks14
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen107
+\Hy@linkcounter=\count88
+\Hy@pagecounter=\count89
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count90
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count91
+
+(C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen108
+\Fld@menulength=\count92
+\Field@Width=\dimen109
+\Fld@charsize=\dimen110
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count93
+\c@Item=\count94
+\c@Hfootnote=\count95
+)
+
+Package hyperref Message: Driver: hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count96
+\c@bookmark@seq@number=\count97
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip46
+)
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
-\wrapoverhang=\dimen107
-\WF@size=\dimen108
-\c@WF@wrappedlines=\count88
+\wrapoverhang=\dimen111
+\WF@size=\dimen112
+\c@WF@wrappedlines=\count98
 \WF@box=\box26
-\WF@everypar=\toks15
+\WF@everypar=\toks16
 Package: wrapfig 2003/01/31  v 3.6
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -265,6 +384,8 @@ Now handling font encoding OMX ...
 ... no UTF-8 mapping file for font encoding OMX
 Now handling font encoding U ...
 ... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
    defining Unicode char U+00A9 (decimal 169)
    defining Unicode char U+00AA (decimal 170)
    defining Unicode char U+00AE (decimal 174)
@@ -290,8 +411,8 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
-\babel@savecnt=\count89
-\U@D=\dimen109
+\babel@savecnt=\count99
+\U@D=\dimen113
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
@@ -305,7 +426,7 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip46
+\@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -313,51 +434,51 @@ Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks18
-\ex@=\dimen110
+\@emptytoks=\toks19
+\ex@=\dimen114
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen111
+\pmbraise@=\dimen115
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count90
+\inf@bad=\count100
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count91
-\leftroot@=\count92
+\uproot@=\count101
+\leftroot@=\count102
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count93
-\DOTSCASE@=\count94
+\classnum@=\count103
+\DOTSCASE@=\count104
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
-\big@size=\dimen112
+\big@size=\dimen116
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count95
-\c@MaxMatrixCols=\count96
-\dotsspace@=\muskip10
-\c@parentequation=\count97
-\dspbrk@lvl=\count98
-\tag@help=\toks19
-\row@=\count99
-\column@=\count100
-\maxfields@=\count101
-\andhelp@=\toks20
-\eqnshift@=\dimen113
-\alignsep@=\dimen114
-\tagshift@=\dimen115
-\tagwidth@=\dimen116
-\totwidth@=\dimen117
-\lineht@=\dimen118
-\@envbody=\toks21
-\multlinegap=\skip47
-\multlinetaggap=\skip48
-\mathdisplay@stack=\toks22
+\macc@depth=\count105
+\c@MaxMatrixCols=\count106
+\dotsspace@=\muskip11
+\c@parentequation=\count107
+\dspbrk@lvl=\count108
+\tag@help=\toks20
+\row@=\count109
+\column@=\count110
+\maxfields@=\count111
+\andhelp@=\toks21
+\eqnshift@=\dimen117
+\alignsep@=\dimen118
+\tagshift@=\dimen119
+\tagwidth@=\dimen120
+\totwidth@=\dimen121
+\lineht@=\dimen122
+\@envbody=\toks22
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -373,11 +494,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen119
-\extrarowheight=\dimen120
-\NC@list=\toks23
-\extratabsurround=\skip49
-\backup@length=\skip50
+\col@sep=\dimen123
+\extrarowheight=\dimen124
+\NC@list=\toks24
+\extratabsurround=\skip50
+\backup@length=\skip51
 )
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\latex\ntheorem\ntheorem.sty
 Style `ntheorem', Version 1.33 <2011/08/15>
@@ -385,48 +506,46 @@ Package: ntheorem 2011/08/15 1.33
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\theorem@style=\toks24
-\theorem@@style=\toks25
-\theorembodyfont=\toks26
-\theoremnumbering=\toks27
-\theorempreskipamount=\skip51
-\theorempostskipamount=\skip52
-\theoremframepreskipamount=\skip53
-\theoremframepostskipamount=\skip54
-\theoreminframepreskipamount=\skip55
-\theoreminframepostskipamount=\skip56
-\theorem@preskip=\toks28
-\theorem@postskip=\toks29
-\theorem@framepreskip=\toks30
-\theorem@framepostskip=\toks31
-\theorem@inframepreskip=\toks32
-\theorem@inframepostskip=\toks33
-\theoremindent=\dimen121
-\theorem@indent=\dimen122
-\theoremrightindent=\dimen123
-\theorem@rightindent=\dimen124
-\theoremheaderfont=\toks34
-\theoremseparator=\toks35
-\theoremprework=\toks36
-\theorempostwork=\toks37
-\theoremsymbol=\toks38
-\qedsymbol=\toks39
-\theoremkeyword=\toks40
-\qedsymbol=\toks41
-\thm@topsep=\skip57
-\thm@topsepadd=\skip58
+\theorem@style=\toks25
+\theorem@@style=\toks26
+\theorembodyfont=\toks27
+\theoremnumbering=\toks28
+\theorempreskipamount=\skip52
+\theorempostskipamount=\skip53
+\theoremframepreskipamount=\skip54
+\theoremframepostskipamount=\skip55
+\theoreminframepreskipamount=\skip56
+\theoreminframepostskipamount=\skip57
+\theorem@preskip=\toks29
+\theorem@postskip=\toks30
+\theorem@framepreskip=\toks31
+\theorem@framepostskip=\toks32
+\theorem@inframepreskip=\toks33
+\theorem@inframepostskip=\toks34
+\theoremindent=\dimen125
+\theorem@indent=\dimen126
+\theoremrightindent=\dimen127
+\theorem@rightindent=\dimen128
+\theoremheaderfont=\toks35
+\theoremseparator=\toks36
+\theoremprework=\toks37
+\theorempostwork=\toks38
+\theoremsymbol=\toks39
+\qedsymbol=\toks40
+\theoremkeyword=\toks41
+\qedsymbol=\toks42
+\thm@topsep=\skip58
+\thm@topsepadd=\skip59
 Package ntheorem Info: Option `thmmarks' loaded on input line 1175.
-\c@endNonectr=\count102
-\c@currNonectr=\count103
-\mysavskip=\skip59
+\c@endNonectr=\count112
+\c@currNonectr=\count113
+\mysavskip=\skip60
+Package ntheorem Info: Option `thref' loaded on input line 1175.
+\mysavskip=\skip61
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks42
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
@@ -440,50 +559,43 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count104
+\Gread@gobject=\count114
 ))
-\Gin@req@height=\dimen125
-\Gin@req@width=\dimen126
+\Gin@req@height=\dimen129
+\Gin@req@width=\dimen130
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
-\TX@col@width=\dimen127
-\TX@old@table=\dimen128
-\TX@old@col=\dimen129
-\TX@target=\dimen130
-\TX@delta=\dimen131
-\TX@cols=\count105
+\TX@col@width=\dimen131
+\TX@old@table=\dimen132
+\TX@old@col=\dimen133
+\TX@target=\dimen134
+\TX@delta=\dimen135
+\TX@cols=\count115
 \TX@ftn=\toks43
 )
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen132
-\lightrulewidth=\dimen133
-\cmidrulewidth=\dimen134
-\belowrulesep=\dimen135
-\belowbottomsep=\dimen136
-\aboverulesep=\dimen137
-\abovetopsep=\dimen138
-\cmidrulesep=\dimen139
-\cmidrulekern=\dimen140
-\defaultaddspace=\dimen141
-\@cmidla=\count106
-\@cmidlb=\count107
-\@aboverulesep=\dimen142
-\@belowrulesep=\dimen143
-\@thisruleclass=\count108
-\@lastruleclass=\count109
-\@thisrulewidth=\dimen144
+\heavyrulewidth=\dimen136
+\lightrulewidth=\dimen137
+\cmidrulewidth=\dimen138
+\belowrulesep=\dimen139
+\belowbottomsep=\dimen140
+\aboverulesep=\dimen141
+\abovetopsep=\dimen142
+\cmidrulesep=\dimen143
+\cmidrulekern=\dimen144
+\defaultaddspace=\dimen145
+\@cmidla=\count116
+\@cmidlb=\count117
+\@aboverulesep=\dimen146
+\@belowrulesep=\dimen147
+\@thisruleclass=\count118
+\@lastruleclass=\count119
+\@thisrulewidth=\dimen148
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
-\bigstrutjot=\dimen145
+\bigstrutjot=\dimen149
 )
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.sty
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
@@ -519,20 +631,20 @@ e.tex
 ered.code.tex
 \pgfkeys@tmptoks=\toks47
 ))
-\pgf@x=\dimen146
-\pgf@y=\dimen147
-\pgf@xa=\dimen148
-\pgf@ya=\dimen149
-\pgf@xb=\dimen150
-\pgf@yb=\dimen151
-\pgf@xc=\dimen152
-\pgf@yc=\dimen153
+\pgf@x=\dimen150
+\pgf@y=\dimen151
+\pgf@xa=\dimen152
+\pgf@ya=\dimen153
+\pgf@xb=\dimen154
+\pgf@yb=\dimen155
+\pgf@xc=\dimen156
+\pgf@yc=\dimen157
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count110
-\c@pgf@countb=\count111
-\c@pgf@countc=\count112
-\c@pgf@countd=\count113
+\c@pgf@counta=\count120
+\c@pgf@countb=\count121
+\c@pgf@countc=\count122
+\c@pgf@countd=\count123
 
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -550,8 +662,8 @@ File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyssof
 tpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count114
-\pgfsyssoftpath@bigbuffer@items=\count115
+\pgfsyssoftpath@smallbuffer@items=\count124
+\pgfsyssoftpath@bigbuffer@items=\count125
 )
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyspro
 tocol.code.tex
@@ -586,8 +698,8 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 .tex)
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.co
 de.tex
-\pgfmath@dimen=\dimen154
-\pgfmath@count=\count116
+\pgfmath@dimen=\dimen158
+\pgfmath@count=\count126
 \pgfmath@box=\box30
 \pgfmath@toks=\toks48
 \pgfmath@stack@operand=\toks49
@@ -611,37 +723,37 @@ de.tex
 .misc.code.tex)))
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.cod
 e.tex
-\c@pgfmathroundto@lastzeros=\count117
+\c@pgfmathroundto@lastzeros=\count127
 ))
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepoi
 nts.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen155
-\pgf@picmaxx=\dimen156
-\pgf@picminy=\dimen157
-\pgf@picmaxy=\dimen158
-\pgf@pathminx=\dimen159
-\pgf@pathmaxx=\dimen160
-\pgf@pathminy=\dimen161
-\pgf@pathmaxy=\dimen162
-\pgf@xx=\dimen163
-\pgf@xy=\dimen164
-\pgf@yx=\dimen165
-\pgf@yy=\dimen166
-\pgf@zx=\dimen167
-\pgf@zy=\dimen168
+\pgf@picminx=\dimen159
+\pgf@picmaxx=\dimen160
+\pgf@picminy=\dimen161
+\pgf@picmaxy=\dimen162
+\pgf@pathminx=\dimen163
+\pgf@pathmaxx=\dimen164
+\pgf@pathminy=\dimen165
+\pgf@pathmaxy=\dimen166
+\pgf@xx=\dimen167
+\pgf@xy=\dimen168
+\pgf@yx=\dimen169
+\pgf@yy=\dimen170
+\pgf@zx=\dimen171
+\pgf@zy=\dimen172
 )
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepat
 hconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen169
-\pgf@path@lasty=\dimen170
+\pgf@path@lastx=\dimen173
+\pgf@path@lasty=\dimen174
 )
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepat
 husage.code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen171
-\pgf@shorten@start@additional=\dimen172
+\pgf@shorten@end@additional=\dimen175
+\pgf@shorten@start@additional=\dimen176
 )
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoresco
 pes.code.tex
@@ -649,19 +761,19 @@ File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
 \pgfpic=\box31
 \pgf@hbox=\box32
 \pgf@layerbox@main=\box33
-\pgf@picture@serial@count=\count118
+\pgf@picture@serial@count=\count128
 )
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoregra
 phicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen173
+\pgflinewidth=\dimen177
 )
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretra
 nsformations.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen174
-\pgf@pt@y=\dimen175
-\pgf@pt@temp=\dimen176
+\pgf@pt@x=\dimen178
+\pgf@pt@y=\dimen179
+\pgf@pt@temp=\dimen180
 )
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorequi
 ck.code.tex
@@ -682,8 +794,8 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoresha
 de.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen177
-\pgf@sys@shading@range@num=\count119
+\pgf@max=\dimen181
+\pgf@sys@shading@range@num=\count129
 )
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreima
 ge.code.tex
@@ -718,8 +830,8 @@ File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-v
 ersion-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen178
-\pgf@nodesepend=\dimen179
+\pgf@nodesepstart=\dimen182
+\pgf@nodesepend=\dimen183
 )
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-v
 ersion-1-18.sty
@@ -732,8 +844,8 @@ e.tex))
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.code
 .tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen180
-\pgffor@skip=\dimen181
+\pgffor@iter=\dimen184
+\pgffor@skip=\dimen185
 \pgffor@stack=\toks51
 \pgffor@toks=\toks52
 ))
@@ -744,30 +856,30 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibraryp
 lothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count120
-\pgfplotmarksize=\dimen182
+\pgf@plot@mark@count=\count130
+\pgfplotmarksize=\dimen186
 )
-\tikz@lastx=\dimen183
-\tikz@lasty=\dimen184
-\tikz@lastxsaved=\dimen185
-\tikz@lastysaved=\dimen186
-\tikzleveldistance=\dimen187
-\tikzsiblingdistance=\dimen188
+\tikz@lastx=\dimen187
+\tikz@lasty=\dimen188
+\tikz@lastxsaved=\dimen189
+\tikz@lastysaved=\dimen190
+\tikzleveldistance=\dimen191
+\tikzsiblingdistance=\dimen192
 \tikz@figbox=\box36
 \tikz@tempbox=\box37
-\tikztreelevel=\count121
-\tikznumberofchildren=\count122
-\tikznumberofcurrentchild=\count123
-\tikz@fig@count=\count124
+\tikztreelevel=\count131
+\tikznumberofchildren=\count132
+\tikznumberofcurrentchild=\count133
+\tikz@fig@count=\count134
 
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulematr
 ix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count125
-\pgfmatrixcurrentcolumn=\count126
-\pgf@matrix@numberofcolumns=\count127
+\pgfmatrixcurrentrow=\count135
+\pgfmatrixcurrentcolumn=\count136
+\pgf@matrix@numberofcolumns=\count137
 )
-\tikz@expandcount=\count128
+\tikz@expandcount=\count138
 
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\li
 braries\tikzlibrarytopaths.code.tex
@@ -783,7 +895,7 @@ tead on input line 10.
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrarya
 rrows.code.tex
 File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
-\arrowsize=\dimen189
+\arrowsize=\dimen193
 ))
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgflibrar
 ysnakes.sty
@@ -805,14 +917,14 @@ tion libraries instead of the snakes library on input line 13.
 \pgflibrarydecorations.pathmorphing.code.tex
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmoduledeco
 rations.code.tex
-\pgfdecoratedcompleteddistance=\dimen190
-\pgfdecoratedremainingdistance=\dimen191
-\pgfdecoratedinputsegmentcompleteddistance=\dimen192
-\pgfdecoratedinputsegmentremainingdistance=\dimen193
-\pgf@decorate@distancetomove=\dimen194
-\pgf@decorate@repeatstate=\count129
-\pgfdecorationsegmentamplitude=\dimen195
-\pgfdecorationsegmentlength=\dimen196
+\pgfdecoratedcompleteddistance=\dimen194
+\pgfdecoratedremainingdistance=\dimen195
+\pgfdecoratedinputsegmentcompleteddistance=\dimen196
+\pgfdecoratedinputsegmentremainingdistance=\dimen197
+\pgf@decorate@distancetomove=\dimen198
+\pgf@decorate@repeatstate=\count139
+\pgfdecorationsegmentamplitude=\dimen199
+\pgfdecorationsegmentlength=\dimen200
 ))
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\decorations
 \pgflibrarydecorations.pathreplacing.code.tex)
@@ -820,50 +932,75 @@ rations.code.tex
 \pgflibrarydecorations.shapes.code.tex)))
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\latex\sidecap\sidecap.sty
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
-\SC@BOXWD=\dimen197
-\SC@CAPWD=\dimen198
-\SC@tempdima=\dimen199
-\SC@tempdimb=\dimen200
-\c@SC@C=\count130
+\SC@BOXWD=\dimen201
+\SC@CAPWD=\dimen202
+\SC@tempdima=\dimen203
+\SC@tempdimb=\dimen204
+\c@SC@C=\count140
 \SC@BOX=\box38
 )
-\c@currproofctr=\count131
-\c@endproofctr=\count132
-\c@proof=\count133
-\c@currclaimctr=\count134
-\c@endclaimctr=\count135
-\c@claim=\count136
-\c@currlemmactr=\count137
-\c@endlemmactr=\count138
-\c@lemma=\count139
+\c@currproofctr=\count141
+\c@endproofctr=\count142
+\c@proof=\count143
+\c@currtheoremctr=\count144
+\c@endtheoremctr=\count145
+\c@theorem=\count146
+\c@currclaimctr=\count147
+\c@endclaimctr=\count148
+\c@claim=\count149
+\c@currlemmactr=\count150
+\c@endlemmactr=\count151
+\c@lemma=\count152
 
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+\AtBeginShipoutBox=\box39
+Package hyperref Info: Link coloring OFF on input line 55.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count153
+)
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
+
+("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
+esis\notes_new.out")
+("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
+esis\notes_new.out")
+\@outlinefile=\write4
 
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count140
-\scratchdimen=\dimen201
-\scratchbox=\box39
-\nofMPsegments=\count141
-\nofMParguments=\count142
+\scratchcounter=\count154
+\scratchdimen=\dimen205
+\scratchbox=\box40
+\nofMPsegments=\count155
+\nofMParguments=\count156
 \everyMPshowfont=\toks53
-\MPscratchCnt=\count143
-\MPscratchDim=\dimen202
-\MPnumerator=\count144
-\makeMPintoPDFobject=\count145
+\MPscratchCnt=\count157
+\MPscratchDim=\dimen206
+\MPnumerator=\count158
+\makeMPintoPDFobject=\count159
 \everyMPtoPDFconversion=\toks54
 ) ABD: EveryShipout initializing macros
 (C:\Users\JVRC\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\ragged2e.sty
@@ -875,72 +1012,102 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 126.
 )
-\CenteringLeftskip=\skip60
-\RaggedLeftLeftskip=\skip61
-\RaggedRightLeftskip=\skip62
-\CenteringRightskip=\skip63
-\RaggedLeftRightskip=\skip64
-\RaggedRightRightskip=\skip65
-\CenteringParfillskip=\skip66
-\RaggedLeftParfillskip=\skip67
-\RaggedRightParfillskip=\skip68
-\JustifyingParfillskip=\skip69
-\CenteringParindent=\skip70
-\RaggedLeftParindent=\skip71
-\RaggedRightParindent=\skip72
-\JustifyingParindent=\skip73
+\CenteringLeftskip=\skip62
+\RaggedLeftLeftskip=\skip63
+\RaggedRightLeftskip=\skip64
+\CenteringRightskip=\skip65
+\RaggedLeftRightskip=\skip66
+\RaggedRightRightskip=\skip67
+\CenteringParfillskip=\skip68
+\RaggedLeftParfillskip=\skip69
+\RaggedRightParfillskip=\skip70
+\JustifyingParfillskip=\skip71
+\CenteringParindent=\skip72
+\RaggedLeftParindent=\skip73
+\RaggedRightParindent=\skip74
+\JustifyingParindent=\skip75
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 51.
+LaTeX Font Info:    Try loading font information for U+msa on input line 57.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 51.
+LaTeX Font Info:    Try loading font information for U+msb on input line 57.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.toc")
-\tf@toc=\write4
+\tf@toc=\write5
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 60.
+LaTeX Font Warning: Command \small invalid in math mode on input line 67.
 
 [1
 
-{C:/Users/JVRC/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+{C:/Users/JVRC/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
+t line 93.
+Package hyperref Info: bookmark level for unknown claim defaults to 0 on input 
+line 96.
+Package hyperref Info: bookmark level for unknown proof defaults to 0 on input 
+line 98.
+ [2]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\succsim' on input line 103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 103.
+
 [3]
-Overfull \hbox (6.47557pt too wide) in paragraph at lines 142--142
-[]\T1/cmr/m/n/10.95 Repare que a Afir-ma-ção 3 nos en-sina que, se dois me-nus 
-são $\OMS/cmsy/m/n/10 $\T1/cmr/m/n/10.95 -comparáveis,
+("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
+esis\notes_new.thm")
+("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
+esis\notes_new.thm")
+Overfull \hbox (6.47557pt too wide) in paragraph at lines 152--152
+[]\T1/cmr/m/n/10.95 Repare que a []Afir-ma-ção 3[] nos en-sina que, se dois me-
+nus são $\OMS/cmsy/m/n/10 $\T1/cmr/m/n/10.95 -comparáveis,
  []
 
 
-Overfull \hbox (22.45377pt too wide) in paragraph at lines 153--155
+Overfull \hbox (22.45377pt too wide) in paragraph at lines 163--165
 \T1/cmr/m/it/10.95 quer. Pela Afir-ma-ção 5, o con-junto $[]$
  []
 
 [4]
-Overfull \hbox (4.15051pt too wide) in paragraph at lines 168--169
-[]\T1/cmr/m/it/10.95 A pre-or-dem $\U/msa/m/n/10.95 %[]$ \T1/cmr/m/it/10.95 sa-
-tis-faz \T1/cmr/m/n/10.95 Con-ti-nuity\T1/cmr/m/it/10.95 , \T1/cmr/m/n/10.95 No
-n-de-ge-ne-racy\T1/cmr/m/it/10.95 , \T1/cmr/m/n/10.95 In-de-pen-dence\T1/cmr/m/
-it/10.95 ,
+Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input 
+line 177.
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
+
  []
 
-[5]
-Overfull \hbox (16.88391pt too wide) in paragraph at lines 193--193
-[] 
- []
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 194.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\succsim' on input line 194.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 194.
 
 [6]
-Overfull \hbox (88.64774pt too wide) in paragraph at lines 218--218
+Overfull \hbox (16.88391pt too wide) in paragraph at lines 204--204
 [] 
  []
 
-
-Overfull \hbox (26.05055pt too wide) detected at line 220
+[7]
+Overfull \hbox (26.05055pt too wide) detected at line 231
 \OML/cmm/m/it/10.95 \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x \OT1/cmr/m/n/10
 .95 + (1 \OMS/cmsy/m/n/10.95   \OML/cmm/m/it/10.95 \OT1/cmr/m/n/10.95 )\OML/cm
 m/m/it/10.95 y\OT1/cmr/m/n/10.95 ) + (1 \OMS/cmsy/m/n/10.95   \OML/cmm/m/it/10.
@@ -954,57 +1121,74 @@ cmsy/m/n/10.95   \OML/cmm/m/it/10.95 \OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 x
 5 \OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 )
  []
 
-[7]
-Overfull \hbox (43.63431pt too wide) in paragraph at lines 231--231
-\T1/cmr/m/n/10.95 e, con-se-quen-te-mente, $[][] \OML/cmm/m/it/10.95 w\OT1/cmr/
-m/n/10.95 (\OML/cmm/m/it/10.95 x; \OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95  \
-OML/cmm/m/it/10.95 p$\T1/cmr/m/n/10.95 . Mas, agora, su-po-nha que $[][] \OML/c
-mm/m/it/10.95 w\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x; \OT1/cmr/m/n/10.95 )
- \OML/cmm/m/it/10.95 >$
+
+("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
+esis\notes_new.thm")
+("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
+esis\notes_new.thm")
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
  []
 
 
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
-esis\notes_new.bbl")
-\tf@thm=\write5
- [8]
+esis\notes_new.thm")
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
-esis\notes_new.aux") ) 
+esis\notes_new.thm")
+("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
+esis\notes_new.thm") [8]
+("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
+esis\notes_new.thm")
+("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
+esis\notes_new.bbl")
+\tf@thm=\write6
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
+
+("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
+esis\notes_new.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
+Package rerunfilecheck Info: File `notes_new.out' has not changed.
+(rerunfilecheck)             Checksum: 51069A9539648CB323C1E0BBD0FF8047;456.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
+ ) 
 Here is how much of TeX's memory you used:
- 12951 strings out of 493921
- 240753 string characters out of 3147285
- 285093 words of memory out of 3000000
- 15930 multiletter control sequences out of 15000+200000
- 25756 words of font info for 73 fonts, out of 3000000 for 9000
+ 16759 strings out of 493921
+ 300689 string characters out of 3147285
+ 369555 words of memory out of 3000000
+ 19633 multiletter control sequences out of 15000+200000
+ 26532 words of font info for 74 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 56i,11n,55p,674b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
-jknappen\ec\dpi600\ecrm0900.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.
-9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\JVRC\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\JVRC\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1095.pk> <C:\Users\J
-VRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C
-:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx10
-95.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
-00\ecbx1440.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecrm1200.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecrm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols
-/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/ms
-bm10.pfb>
-Output written on notes_new.pdf (8 pages, 262760 bytes).
+ 56i,11n,55p,1224b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
+cbx1200.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ecti1095.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ecrm0900.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\JVRC\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1095.pk> <C:\Users\JVRC\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\JVR
+C\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\
+Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440
+.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecrm1200.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecrm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on notes_new.pdf (9 pages, 293959 bytes).
 PDF statistics:
- 428 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 582 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

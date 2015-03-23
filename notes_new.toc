@@ -1,3 +1,7 @@
 \select@language {brazil}
-\contentsline {section}{\numberline {1}Setup}{1}
-\contentsline {section}{\numberline {2}Obten\IeC {\c c}\IeC {\~a}o da representa\IeC {\c c}\IeC {\~a}o funcional de $\succsim $}{2}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{section.1}
+\contentsline {section}{\numberline {2}Axiomatiza\IeC {\c c}\IeC {\~a}o da prefr\IeC {\^e}ncia sobre menus}{1}{section.2}
+\contentsline {section}{\numberline {3}Representa\IeC {\c c}\IeC {\~a}o funcional de $\succsim $}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Representa\IeC {\c c}\IeC {\~a}o de prefer\IeC {\^e}ncias incompletas sobre menus}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Obtendo a forma funcional de $\succsim $}{7}{subsection.3.2}
+\contentsline {section}{\numberline {4}Observa\IeC {\c c}\IeC {\~o}es finais}{9}{section.4}
