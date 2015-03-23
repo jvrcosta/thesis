@@ -33,7 +33,7 @@
 \newtheorem{proof}{Dem.}
 
 \theoremstyle{plain}
-\theoremseparator{.~}
+\theoremseparator{~}
 \theoremsymbol{}
 \newtheorem{theorem}{Teorema}
 
@@ -44,6 +44,13 @@
 \theoremstyle{plain}
 \theoremsymbol{}
 \newtheorem{lemma}{Lema}
+
+\makeatletter
+\def\nlabel#1#2{\begingroup
+   \def\@currentlabel{#2}%
+   \label{#1}\endgroup
+}
+\makeatother
 
 \title{Notas - preferências sobre menus}
 \author{}
@@ -75,7 +82,7 @@ Seja $B$ um conjunto finito de alternativas e $\Delta(B)$ o conjunto das medidas
 Adicionalmente, suponha que o tomador de decisão tenha certeza \textit{ex ante} de que há uma alternativa $b_*$ que é o pior resultado \textit{ex post} - o mesmo vale para a loteria degenerada $\delta_{b_*}$. Assumiremos também que o agente saiba \textit{ex ante} que o menu $\Delta(B)$ lhe trará o melhor resultado \textit{ex post} ainda que não conheça qual loteria maximizará sua utilidade após a realização do estado.   
 
 \begin{description}
-\item[\textit{Worst}] Para a pior alternativa $b_*$, temos $\lambda\left(x\cup \{b_*\}\right)+(1-\lambda)y\sim \lambda x + (1-\lambda)y$ para quaisquer menus $x,y\in \mathbb{X}$ e $\lambda\in (0,1)$. 
+\item[\textit{Worst}] Para a pior alternativa $b_*$, ~temos $\lambda\left(x\cup \{b_*\}\right)+(1-\lambda)y\sim \lambda x + (1-\lambda)y$ para quaisquer menus $x,y\in \mathbb{X}$ e $\lambda\in (0,1)$. 
 \end{description}
 
 \textit{Worst} formaliza a idéia de que o agente não experimenta ganhos de flexibilidade ao incluir  em qualquer menu $x$ a loteria degenerada da pior alternativa $b_*$. Um raciocínio rápido nos garante que $$\Delta(B)\sim B\succsim x\succsim \{b_*\} \; \text{e} \; B\succ \{b_*\}$$ para todo $x$. Por \textit{Indifference to Randomization} e \textit{Monotonicity}, $\Delta(B)\sim B \succsim x$. Além disso, dado que o agente está certo de que $b_*$ é o pior resultado, $x\succsim \{b_*\}$ vale para todo $x$. Por fim, \textit{Monotonicity} garante que $B\succsim \{b_*\}$. Caso $B \sim \{b_*\}$, contrariamos \textit{Nondegeneracy}. 
@@ -90,7 +97,7 @@ Tendo conhecido o comportamento do agente face aos menus $\Delta(B)$ e $\{b_*\}$
 
 O resultado do nosso trabalho é a construção da representação funcional da preferência satisfazendo os axiomas acima, baseada em \cite{Epstein2007}.
 
-\begin{theorem} \label{nossoteorema}   \end{theorem} 
+\begin{theorem} \label{nossoteorema}  \end{theorem} 
 
 
 \begin{claim}Para todo menu $x$, existe $p\in[0,1]$ tal que $x\sim x_p=p\Delta(B)+(1-p)b_*$. \end{claim}
@@ -137,12 +144,12 @@ Suponha que, para um menu $x$, não seja verdade que $x\sim^* co(x)$. Como $\suc
 %Considere uma sequência convergente no conjunto. Pela continuidade de $\succsim^*$, o limite desta sequência também pertencerá ao conjunto.
 %\end{proof}
 
-\begin{claim}(Finitiness*)Para todo menu $x$, existe um subconjunto finito $x^f$ tal que $x\sim^* x'$.\end{claim}
+\begin{claim}[Finitiness*]Para todo menu $x$, existe um subconjunto finito $x^f$ tal que $x\sim^* x'$.\end{claim}
 \begin{proof}
 Basta utilizar Finitiness de $\succsim$ e a definição de $\succsim^*$. 
 \end{proof}
 
-\begin{claim} (Worst*) Para a pior alternativa $b_*$, temos $x\cup\{b_*\}\sim^* x$.\end{claim}
+\begin{claim}[Worst*] Para a pior alternativa $b_*$, temos $x\cup\{b_*\}\sim^* x$.\end{claim}
 \begin{proof}
 Implicação de \textit{Worst} em $\succsim$ e da definição de $\succsim^*$. 
 \end{proof}
@@ -153,7 +160,7 @@ Repare que a \thref{monotonicidade} nos ensina que, se dois menus são \begin{sm
 
 Vamos, por fim, demonstrar que $\succsim^*$ satisfaz o axioma da Independência. 
 
-\begin{claim} (\textit{Independence}) $x\succsim^*x'$ se, e somente se, $\lambda x + (1-\lambda)y\succsim^* \lambda x' + (1-\lambda)y$ para quaisquer menus $x,x',y\in \mathbb{X}$ e para todo $\lambda \in [0,1]$.\end{claim}
+\begin{claim}[Independence] $x\succsim^*x'$ se, e somente se, $\lambda x + (1-\lambda)y\succsim^* \lambda x' + (1-\lambda)y$ para quaisquer menus $x,x',y\in \mathbb{X}$ e para todo $\lambda \in [0,1]$.\end{claim}
 \begin{proof}
 Considere menus $x$ e $x'$ tais que $x\succsim^* x'$. Então, para quaisquer $\lambda$,$\theta$ $\in (0,1)$ e $y,z\in\mathbb{X}$, temos
 \begin{align*}

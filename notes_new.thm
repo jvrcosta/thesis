@@ -11,11 +11,11 @@
 \contentsline {proof}{{Dem.}{5}{}}{4}{proof.5}
 \contentsline {claim}{{Afirmação}{6}{}}{4}{claim.6}
 \contentsline {proof}{{Dem.}{6}{}}{4}{proof.6}
-\contentsline {claim}{{Afirmação}{7}{}}{4}{claim.7}
+\contentsline {claim}{{Afirmação}{7}{Finitiness*}}{4}{claim.7}
 \contentsline {proof}{{Dem.}{7}{}}{4}{proof.7}
-\contentsline {claim}{{Afirmação}{8}{}}{4}{claim.8}
+\contentsline {claim}{{Afirmação}{8}{Worst*}}{4}{claim.8}
 \contentsline {proof}{{Dem.}{8}{}}{4}{proof.8}
-\contentsline {claim}{{Afirmação}{9}{}}{4}{claim.9}
+\contentsline {claim}{{Afirmação}{9}{Independence}}{4}{claim.9}
 \contentsline {proof}{{Dem.}{9}{}}{4}{proof.9}
 \contentsline {lemma}{{Lema}{1}{}}{5}{lemma.1}
 \contentsline {proof}{{Dem.}{10}{}}{6}{proof.10}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  22 MAR 2015 22:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  22 MAR 2015 22:41
 entering extended mode
 **notes_new.tex
 
@@ -954,22 +954,22 @@ Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
 
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
 \AtBeginShipoutBox=\box39
-Package hyperref Info: Link coloring OFF on input line 55.
+Package hyperref Info: Link coloring OFF on input line 62.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -979,9 +979,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count153
 )
-LaTeX Info: Redefining \ref on input line 55.
-LaTeX Info: Redefining \pageref on input line 55.
-LaTeX Info: Redefining \nameref on input line 55.
+LaTeX Info: Redefining \ref on input line 62.
+LaTeX Info: Redefining \pageref on input line 62.
+LaTeX Info: Redefining \nameref on input line 62.
 
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.out")
@@ -1027,12 +1027,12 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \RaggedRightParindent=\skip74
 \JustifyingParindent=\skip75
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 57.
+LaTeX Font Info:    Try loading font information for U+msa on input line 64.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 57.
+LaTeX Font Info:    Try loading font information for U+msb on input line 64.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1042,72 +1042,80 @@ esis\notes_new.toc")
 \tf@toc=\write5
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 67.
+LaTeX Font Warning: Command \small invalid in math mode on input line 74.
 
 [1
 
 {C:/Users/JVRC/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
-t line 93.
+t line 100.
 Package hyperref Info: bookmark level for unknown claim defaults to 0 on input 
-line 96.
+line 103.
 Package hyperref Info: bookmark level for unknown proof defaults to 0 on input 
-line 98.
+line 105.
  [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 103.
+(hyperref)                removing `math shift' on input line 110.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\succsim' on input line 103.
+(hyperref)                removing `\succsim' on input line 110.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 103.
+(hyperref)                removing `math shift' on input line 110.
 
 [3]
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.thm")
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.thm")
-Overfull \hbox (6.47557pt too wide) in paragraph at lines 152--152
+Overfull \hbox (6.47557pt too wide) in paragraph at lines 159--159
 []\T1/cmr/m/n/10.95 Repare que a []Afir-ma-ção 3[] nos en-sina que, se dois me-
 nus são $\OMS/cmsy/m/n/10 $\T1/cmr/m/n/10.95 -comparáveis,
  []
 
 
-Overfull \hbox (22.45377pt too wide) in paragraph at lines 163--165
+Overfull \hbox (22.45377pt too wide) in paragraph at lines 170--172
 \T1/cmr/m/it/10.95 quer. Pela Afir-ma-ção 5, o con-junto $[]$
  []
 
 [4]
 Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input 
-line 177.
- [5]
-Underfull \hbox (badness 10000) in paragraph at lines 185--187
+line 184.
+
+Overfull \hbox (4.8453pt too wide) in paragraph at lines 184--185
+[]\T1/cmr/m/it/10.95 A pre-or-dem $\U/msa/m/n/10.95 %[]$ \T1/cmr/m/it/10.95 sa-
+tis-faz \T1/cmr/m/n/10.95 Con-ti-nuity\T1/cmr/m/it/10.95 , \T1/cmr/m/n/10.95 No
+n-de-ge-ne-racy\T1/cmr/m/it/10.95 , \T1/cmr/m/n/10.95 In-de-pen-dence\T1/cmr/m/
+it/10.95 ,
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 194.
+(hyperref)                removing `math shift' on input line 201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\succsim' on input line 194.
+(hyperref)                removing `\succsim' on input line 201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 194.
+(hyperref)                removing `math shift' on input line 201.
 
 [6]
-Overfull \hbox (16.88391pt too wide) in paragraph at lines 204--204
+Overfull \hbox (16.88391pt too wide) in paragraph at lines 211--211
 [] 
  []
 
 [7]
-Overfull \hbox (26.05055pt too wide) detected at line 231
+Overfull \hbox (26.05055pt too wide) detected at line 238
 \OML/cmm/m/it/10.95 \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x \OT1/cmr/m/n/10
 .95 + (1 \OMS/cmsy/m/n/10.95   \OML/cmm/m/it/10.95 \OT1/cmr/m/n/10.95 )\OML/cm
 m/m/it/10.95 y\OT1/cmr/m/n/10.95 ) + (1 \OMS/cmsy/m/n/10.95   \OML/cmm/m/it/10.
@@ -1126,7 +1134,7 @@ cmsy/m/n/10.95   \OML/cmm/m/it/10.95 \OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 x
 esis\notes_new.thm")
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.thm")
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
@@ -1142,23 +1150,23 @@ esis\notes_new.thm")
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.bbl")
 \tf@thm=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 260.
  [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
 
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 260.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 260.
 Package rerunfilecheck Info: File `notes_new.out' has not changed.
 (rerunfilecheck)             Checksum: 51069A9539648CB323C1E0BBD0FF8047;456.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 260.
  ) 
 Here is how much of TeX's memory you used:
- 16759 strings out of 493921
- 300689 string characters out of 3147285
- 369555 words of memory out of 3000000
- 19633 multiletter control sequences out of 15000+200000
+ 16761 strings out of 493921
+ 300704 string characters out of 3147285
+ 369563 words of memory out of 3000000
+ 19635 multiletter control sequences out of 15000+200000
  26532 words of font info for 74 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,11n,55p,1224b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1186,9 +1194,9 @@ amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on notes_new.pdf (9 pages, 293959 bytes).
+Output written on notes_new.pdf (9 pages, 295434 bytes).
 PDF statistics:
- 582 PDF objects out of 1000 (max. 8388607)
+ 586 PDF objects out of 1000 (max. 8388607)
  48 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
