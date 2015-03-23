@@ -67,7 +67,7 @@
 \section{Introdução}
 
 \section{Axiomatização da prefrência sobre menus}
-Seja $B$ um conjunto finito de alternativas e $\Delta(B)$ o conjunto das medidas de probabilidade sobre $B$. $\mathbb{X}$ representa os subconjuntos fechados de $\Delta(B)$, os menus. $\succsim$ denotará a preferência sobre $\mathbb{X}$. Para a análise subsequente é impportante considerar a seguinte lista de axiomas.
+Seja $B$ um conjunto finito de alternativas e $\Delta(B)$ o conjunto das medidas de probabilidade sobre $B$. $\mathbb{X}$ é a coleção de subconjuntos fechados de $\Delta(B)$, os menus. $\succsim$ denotará a preferência sobre $\mathbb{X}$. Para a análise subsequente é impportante considerar a seguinte lista de axiomas.
 \begin{description}
 \item [\textit{Order}] $\succsim$ é completa e transitiva  
 \item [\textit{Continuity}] Para todo $x$, $\{y\in \mathbb{X}:y\succsim x\}$ e $\{y\in \mathbb{X}:x\succsim y\}$ são fechados\footnote{Lembre-se que, apenas no caso de $\succsim$ ser ordem, isso é equivalente a dizer que $\succsim$ é um subconjunto fechado de $\mathbb{X}\times\mathbb{X}$}. 
@@ -95,17 +95,20 @@ Tendo conhecido o comportamento do agente face aos menus $\Delta(B)$ e $\{b_*\}$
 %\item [\textit{Mild Continuity}] Para todo $x$, $\{p\in[0,1]:x_p\succsim x\}$ e $\{p\in[0,1]:x\succsim x_p\}$ são fechados.
 \end{description}
 
-O resultado do nosso trabalho é a construção da representação funcional da preferência satisfazendo os axiomas acima, baseada em \cite{Epstein2007}.
+O principal resultado do nosso trabalho é a construção da representação funcional da preferência sobre menus satisfazendo os axiomas acima, baseada em \cite{Epstein2007}, conforme o teorema abaixo.
 
-\begin{theorem} \label{nossoteorema}  \end{theorem} 
+\begin{theorem} \label{nossoteorema} A preferência $\succsim$ sobre o espaço de menus $\mathbb{X}$ satisfaz \emph{Order}, \emph{Continuity}, \emph{Monotonicity}, \emph{Indifference to Randomization}, \emph{Nondegeneracy}, \emph{Preference Convexity}, \emph{Finiteness}, \emph{Worst} e \emph{Certainty Independence} se, e somente se, existe um conjunto de utilidades $N=\{u \in \mathbb{R}^B_+:u(b_*)=0\text { e }\max_{B}u(b)=1\}$ e um conjunto fechado e convexo $\Pi$ de medidas de probabilidade sobre $N$ tais que 
+\[x \succsim y \;\Leftrightarrow\; \min_{\pi\in\Pi}\sum_{u\in N} \pi(u)\max_{\beta\in x}u(\beta)\geq \min_{\pi\in\Pi}\sum_{u\in N} \pi(u)\max_{\beta\in y}u(\beta)\]
+\end{theorem} 
 
+Um resultado importante para a demonstração do \thref{nossoteorema} é o de que todo menu $x$ possui um menu certo $x_p$ $\succsim$-indiferente a ele, o que traduz a idéia de que existe um peso $p$ na mistura entre o pior e melhor resultados suficiente para que o tomador de decisão conjecture receber o mesmo \emph{payoff} de um menu com menor nível de certeza. 
 
 \begin{claim}Para todo menu $x$, existe $p\in[0,1]$ tal que $x\sim x_p=p\Delta(B)+(1-p)b_*$. \end{claim}
 \begin{proof}
 Para um menu qualquer $x$, defina $S:=\{p\in[0,1] : x_p\succsim x\}$, $I:=\{p\in[0,1] : x\succsim x_p\}$ e note que $1\in S$ e $0\in I$. Como $\succsim$ é contínua e completa, podemos afirmar que $S$ e $I$ são fechados e $S\cup I=[0,1]$. Dada a conexidade de $[0,1]$, sabemos que $S\cap I\neq \emptyset$. Portanto, para $p\in S\cap I$, temos que $x\sim x_p$.   
 \end{proof}
 
-Na próxima seção, construiremos a representação funcional de $\succsim$ sobre o espaço de menus $\mathbb{X}$ a partir da maior restrição dessa relação que mantém o ordenamento para misturas entre menus, isto é, a maior restrição que satisfaz o axioma de Independência, tradicional na literatura de decisão sob incerteza. 
+Na próxima seção, construiremos a representação funcional de $\succsim$ sobre o espaço de menus $\mathbb{X}$ a partir da maior restrição dessa relação invariante com respeito a misturas entre menus, isto é, a maior restrição que satisfaz o axioma da Independência, tradicional na literatura de decisão sob incerteza. 
 
 \section{Representação funcional de $\succsim$}
 
@@ -178,8 +181,16 @@ Agora, suponha que $\lambda x + (1-\lambda)y\succsim^*\lambda x' + (1-\lambda)y$
 \end{proof}
 
 \subsection{Representação de preferências incompletas sobre menus}
-{\color{cadmiumgreen}Inserir uma discussão sobre o resultado do Kochov e enunciá-lo como está no paper. No lema, adaptaríamos para os menus fechados e finitude do espaço subjetivo.\\
-Colocar o comentário de que não é necessário indexar as utilidades no estado da natureza etc.}
+{\color{cadmiumgreen}Inserir uma discussão sobre o resultado do Kochov e enunciá-lo como está no paper. No lema, adaptaríamos para os menus fechados e finitude do espaço subjetivo.}
+
+\begin{theorem}[\cite{Kochov2007}]\label{kochov} A preordem $\succsim^*$ satisfaz \emph{Continuity}, \emph{Nondegeneracy}, \emph{Independence} e \emph{Monotonicity} se, e somente se, existe um conjunto $S$, uma função utilidade dependente de estado $U:\Delta(B)\times S\rightarrow R$ e um conjunto fechado e convexo $\Delta$ de medidas de probabilidade sobre $S$ tais que
+\begin{enumerate}[(i)]
+\item $x\succsim^* y$ se, e somente se, $$ \int_{S} \sup_{\beta\in x}U(\beta,s)d\mu \geq \int_{S} \max_{\beta\in y}U(\beta,s)d\mu\quad \forall\mu\in\Delta;$$
+\item cada $U(\cdot,s)$ é uma função utilidade esperada, i.e. $$U(\beta,s)=\sum_{b\in B} \beta(b)U(b,s)$$ 
+\end{enumerate} 
+\end{theorem}
+
+{\color{cadmiumgreen}Colocar o comentário de que não é necessário indexar as utilidades no estado da natureza etc.}
 
 \begin{lemma}\label{nossoKochov} A preordem $\succsim^*$ satisfaz \emph{Continuity}, \emph{Nondegeneracy}, \emph{Independence}, \emph{Monotonicity} e \emph{Finitiness*} se, e somente se, existe um conjunto finito de funções $N=\{u \in \mathbb{R}^B_+:u(b_*)=0\text { e }\max_{B}u(b)=1\}$ e um conjunto fechado e convexo $\Pi$ de medidas de probabilidade sobre $N$ tal que:
 \begin{enumerate}[(i)]
@@ -189,11 +200,11 @@ Colocar o comentário de que não é necessário indexar as utilidades no estado
 \end{lemma}
 \begin{proof}
 Prosseguiremos a demonstração do lema em dois passos.\\
-\textbf{Passo 1:} Vamos mostrar que \emph{Finitiness} é condição suficiente para que o conjunto $S$ de estados da natureza seja finito\footnote{Baseado na demonstração do Teorema 6 em \cite{Dekel2009}}. Seja $x^*$ o menu que é uma esfera contida em $\Delta(B)$ e $\sigma_{x^*}$ sua função suporte definida por: $$\sigma_{x^*}(\beta)=\max_{\beta\in x^*} U(\beta) $$ Como $x^*$ é um menu fechado e $U\in S$ é contínua, $\sigma_{x^*}$ está bem definida. Logo, existe um mapa biunívoco $g(\beta)$ da fronteira de $x^*$ no conjunto $S$ de maneira que $$g(\beta)=U\text{ tal que } \beta=\argmax_{\alpha}U(\alpha)$$ com $\alpha$ na fronteira de $x^*$, ou seja $g(\beta)$ é o estado da natureza no qual $\beta$ é a loteria que maximiza a utilidade esperada, nesse estado. Se, portanto, $S$ é um conjunto com infinitos estados da natureza, o menu $x^*$ não poderia conter um subconjnto finito que o fosse $\succsim^*$-indiferente, violando \emph{Finitiness*}. Logo, podemos reescrever o resultado de \cite{Kochov2007} da seguinte maneira $$x\succsim^* y \text{ se, e somente se, } \sum_{U\in S} \mu(U)\max_{\beta\in x}U(\beta) \geq \sum_{U\in S} \mu(U)\max_{\beta\in y}U(\beta)$$ 
+\underline{Passo 1} Vamos mostrar que \emph{Finitiness} é condição suficiente para que o conjunto $S$ de estados da natureza seja finito\footnote{Baseado na demonstração do Teorema 6 em \cite{Dekel2009}}. Seja $x^*$ o menu que é uma esfera contida em $\Delta(B)$ e $\sigma_{x^*}$ sua função suporte definida por: $$\sigma_{x^*}(\beta)=\max_{\beta\in x^*} U(\beta) $$ Como $x^*$ é um menu fechado e $U\in S$ é contínua, $\sigma_{x^*}$ está bem definida. Logo, existe um mapa biunívoco $g(\beta)$ da fronteira de $x^*$ no conjunto $S$ de maneira que $$g(\beta)=U\text{ tal que } \beta=\argmax_{\alpha}U(\alpha)$$ com $\alpha$ na fronteira de $x^*$, ou seja $g(\beta)$ é o estado da natureza no qual $\beta$ é a loteria que maximiza a utilidade esperada, nesse estado. Se, portanto, $S$ é um conjunto com infinitos estados da natureza, o menu $x^*$ não poderia conter um subconjnto finito que o fosse $\succsim^*$-indiferente, violando \emph{Finitiness*}. Logo, podemos reescrever o resultado do \thref{kochov} da seguinte maneira $$x\succsim^* y \text{ se, e somente se, } \sum_{U\in S} \mu(U)\max_{\beta\in x}U(\beta) \geq \sum_{U\in S} \mu(U)\max_{\beta\in y}U(\beta)$$ 
 mantendo o formato de utilidade esperada para $U\in S$. Novamente, como os menus em nosso modelo são subconjuntos fechados de $\Delta(B)$ e as utilidades vNM são contínuas, $\max_{\beta\in x}U(\beta)$ está bem definido para qualquer menu $x$.\\
 
 \noindent
-\textbf{Passo 2:} Mas agora note que podemos normalizar os estados da natureza de modo a obter o conjunto $N$ utilizado na representação de \cite{Epstein2007}. Para isso, escreva:
+\underline{Passo 2} Mas agora note que podemos normalizar os estados da natureza de modo a obter o conjunto $N$ utilizado na representação do \thref{nossoteorema}. Para isso, escreva:
 $$u(b)=\frac{U(b)-U(b_*)}{\max_b U(b)-U(b_*)}$$  
 e veja que, de fato, $u(b_*)=0$ e $\max_{B} u(b)=1$. Todavia, isso não necessariamente preserva o ordenamento dos menus e, para corrigir esse problema, teremos de normalizar as medidas de probabilidade em $\Delta$ da seguinte maneira:
 $$ \hat{\pi}(u)=\mu(U)\left[max_B U(b)-U(b_*)\right]$$ Finalmente, para que as medidas normalizadas somem a unidade, precisamos reescrevê-las como abaixo:  \[\pi(u)=\frac{\hat{\pi}(u)}{\sum_{u\in N}\hat{\pi}(u)}\]
@@ -249,6 +260,8 @@ x_p\sim x\succsim y\sim x_{\bar{p}}&\Leftrightarrow x_p\succsim^* x_{\bar{p}}\\
 \end{align*}
 
 Ainda em consequência do \thref{NCI}, sabemos que $x\succsim^* x_p$. Logo, $$w(x,\pi)\geq w(x_p,\pi)=p\quad\forall\pi \in \Pi$$ e, consequentemente, $\min_{\pi\in\Pi}w(x,\pi)\geq p$. Mas, agora, suponha que $$\min_{\pi\in\Pi}w(x,\pi)> p$$ Então, para qualquer $p'\in (p,\min_{\pi\in\Pi}w(x,\pi))$, temos que $x_{p'}\succ^* x_p\sim^* x$, uma contradição. Portanto, $$\min_{\pi\in\Pi}\sum_{u\in N} \pi(u)\max_{\beta\in x}u(\beta)=p$$   
+
+Argumentos usuais da literatura de menus garantem que a forma funcional acima implica na axiomatização de $\succsim$. 
 \begin{flushright}
 $\blacksquare$
 \end{flushright}
