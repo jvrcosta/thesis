@@ -67,10 +67,10 @@
 \section{Introdução}
 
 \section{Axiomatização da prefrência sobre menus}
-Seja $B$ um conjunto finito de alternativas e $\Delta(B)$ o conjunto das medidas de probabilidade sobre $B$. $\mathbb{X}$ é a coleção de subconjuntos fechados de $\Delta(B)$, os menus. $\succsim$ denotará a preferência sobre $\mathbb{X}$. Para a análise subsequente é impportante considerar a seguinte lista de axiomas.
+Seja $B$ um conjunto finito de alternativas e $\Delta(B)$ o conjunto das medidas de probabilidade sobre $B$. $\mathbb{X}$ é a coleção de subconjuntos fechados de $\Delta(B)$, os menus, e $\succsim$ denotará a preferência sobre $\mathbb{X}$. Os axiomas a seguir caracterizam essa relação.
 \begin{description}
 \item [\textit{Order}] $\succsim$ é completa e transitiva  
-\item [\textit{Continuity}] Para todo $x$, $\{y\in \mathbb{X}:y\succsim x\}$ e $\{y\in \mathbb{X}:x\succsim y\}$ são fechados\footnote{Lembre-se que, apenas no caso de $\succsim$ ser ordem, isso é equivalente a dizer que $\succsim$ é um subconjunto fechado de $\mathbb{X}\times\mathbb{X}$}. 
+\item [\textit{Continuity}] Para todo $x$, $\{y\in \mathbb{X}:y\succsim x\}$ e $\{y\in \mathbb{X}:x\succsim y\}$ são fechados%\footnote{Lembre-se que, apenas no caso de $\succsim$ ser ordem, isso é equivalente a dizer que $\succsim$ é um subconjunto fechado de $\mathbb{X}\times\mathbb{X}$}. 
 \item [\textit{Monotonicity}] Para quaisquer $x$, $x'$ $\in\mathbb{X}$ com $x\begin{small}\supseteq\end{small} x'$, temos $x\succsim x'$. 
 %\item [\textit{Independence}] Para quaisquer $x$,$x'$ e $y$ e $\lambda\in(0,1)$, $$x\succsim x'\Leftrightarrow \lambda x+(1-\lambda)y\succsim \lambda x'+(1-\lambda)y$$
 \item [\textit{Indifference to Randomization}] $x\sim co(x)$, o fecho convexo de $x$. 
@@ -222,7 +222,7 @@ w(x_p,\pi)&=\sum_{u\in N} \pi(u)\max_{\beta\in x_{p}}u(\beta)\\
 \end{align*}
 donde a penúltima igualdade é consequência do fato de que o elemento que maximiza $u(\beta')$ é a loteria degenerada $\delta_{\bar{b}}$ na qual $\bar{b}:=\argmax u(b)$, ou seja, $u(\bar{b})=1$. É importante notar ainda que $w(x_p,\pi)=p$ para qualquer \textit{prior} $\pi\in\Pi$. Portanto, podemos afirmar que para dois menus certos $x_p$ e $x_{p'}$, temos que $x_p\succsim^* x_{p'}$ se, e somente se, $p\geq p'$. 
 
-Tendo estudado o valor que $w$ assume sobre os menus certos $x_p$, precisamos ainda de uma propriedade da relação primitiva $\succsim$ referente a misturas convexas entre menus. Mais precisamente, mostramos abaixo que o Lema 1, \emph{Preference Convexity} e \emph{Certainty Independence} são suficientes para afirmar que se um menu é $\succsim$-preferido a um menu certo, misturá-los a um terceiro menu com pesos iguais não reverterá o ordenamento original. Essa é precisamente a idéia  
+Tendo estudado o valor que $w$ assume sobre os menus certos $x_p$, precisamos ainda de uma propriedade da relação primitiva $\succsim$ referente a misturas convexas entre menus. Mais precisamente, mostramos abaixo que o Lema 1, \emph{Preference Convexity} e \emph{Certainty Independence} são suficientes para afirmar que se um menu é $\succsim$-preferido a um menu certo, misturá-los a um terceiro menu com pesos iguais mantém a relação invariante.  
 
 \begin{lemma}\label{NCI}A relação $\succsim$ satisfaz \emph{Negative Certainty Independence (NCI)}, i.e. se $x\succsim x_p$, então $\lambda x +(1-\lambda)y\succsim \lambda x_p +(1-\lambda)y$ para todo $\lambda\in(0,1)$ e $y\in \mathbb{X}$.\end{lemma}
 \begin{proof}
@@ -267,7 +267,7 @@ $\blacksquare$
 \end{flushright}
 
 \section{Observações finais}
-Next steps: relaxar a hipótese de finitiness, pois, afinal, a imprecisão das contingência pode torná-la inadequada. 
+
 \bibliography{library}
 \bibliographystyle{chicago}
 \end{document}

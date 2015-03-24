@@ -1,12 +1,12 @@
 \contentsline {theorem}{{Teorema}{1}{}}{2}{theorem.1}
-\contentsline {claim}{{Afirmação}{1}{}}{2}{claim.1}
-\contentsline {proof}{{Dem.}{1}{}}{2}{proof.1}
+\contentsline {claim}{{Afirmação}{1}{}}{3}{claim.1}
+\contentsline {proof}{{Dem.}{1}{}}{3}{proof.1}
 \contentsline {claim}{{Afirmação}{2}{}}{3}{claim.2}
 \contentsline {proof}{{Dem.}{2}{}}{3}{proof.2}
 \contentsline {claim}{{Afirmação}{3}{}}{3}{claim.3}
 \contentsline {proof}{{Dem.}{3}{}}{3}{proof.3}
-\contentsline {claim}{{Afirmação}{4}{}}{3}{claim.4}
-\contentsline {proof}{{Dem.}{4}{}}{3}{proof.4}
+\contentsline {claim}{{Afirmação}{4}{}}{4}{claim.4}
+\contentsline {proof}{{Dem.}{4}{}}{4}{proof.4}
 \contentsline {claim}{{Afirmação}{5}{}}{4}{claim.5}
 \contentsline {proof}{{Dem.}{5}{}}{4}{proof.5}
 \contentsline {claim}{{Afirmação}{6}{}}{4}{claim.6}
@@ -17,7 +17,8 @@
 \contentsline {proof}{{Dem.}{8}{}}{4}{proof.8}
 \contentsline {claim}{{Afirmação}{9}{Independence}}{4}{claim.9}
 \contentsline {proof}{{Dem.}{9}{}}{4}{proof.9}
-\contentsline {lemma}{{Lema}{1}{}}{5}{lemma.1}
+\contentsline {theorem}{{Teorema}{2}{\cite {Kochov2007}}}{5}{theorem.2}
+\contentsline {lemma}{{Lema}{1}{}}{6}{lemma.1}
 \contentsline {proof}{{Dem.}{10}{}}{6}{proof.10}
-\contentsline {lemma}{{Lema}{2}{}}{7}{lemma.2}
-\contentsline {proof}{{Dem.}{11}{}}{7}{proof.11}
+\contentsline {lemma}{{Lema}{2}{}}{8}{lemma.2}
+\contentsline {proof}{{Dem.}{11}{}}{8}{proof.11}
