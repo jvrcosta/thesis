@@ -1,7 +1,7 @@
-\select@language {brazil}
+\select@language {english}
 \contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{section.1}
-\contentsline {section}{\numberline {2}Axiomatiza\IeC {\c c}\IeC {\~a}o da prefr\IeC {\^e}ncia sobre menus}{1}{section.2}
-\contentsline {section}{\numberline {3}Representa\IeC {\c c}\IeC {\~a}o funcional de $\succsim $}{3}{section.3}
-\contentsline {subsection}{\numberline {3.1}Representa\IeC {\c c}\IeC {\~a}o de prefer\IeC {\^e}ncias incompletas sobre menus}{5}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Obtendo a forma funcional de $\succsim $}{7}{subsection.3.2}
-\contentsline {section}{\numberline {4}Observa\IeC {\c c}\IeC {\~o}es finais}{10}{section.4}
+\contentsline {section}{\numberline {2}Axiomatiza\IeC {\c c}\IeC {\~a}o da prefr\IeC {\^e}ncia sobre menus}{3}{section.2}
+\contentsline {section}{\numberline {3}Representa\IeC {\c c}\IeC {\~a}o funcional de $\succsim $}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Representa\IeC {\c c}\IeC {\~a}o de prefer\IeC {\^e}ncias incompletas sobre menus}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Obtendo a forma funcional de $\succsim $}{9}{subsection.3.2}
+\contentsline {section}{\numberline {4}Observa\IeC {\c c}\IeC {\~o}es finais}{12}{section.4}

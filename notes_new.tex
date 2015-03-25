@@ -8,7 +8,7 @@
 \usepackage{wrapfig}
 
 \usepackage[utf8]{inputenc}
-\usepackage[brazil]{babel}
+\usepackage[brazil,english]{babel}
 \usepackage[T1]{fontenc}
 
 \usepackage{amsmath}
@@ -60,13 +60,33 @@
 \definecolor{cadmiumgreen}{rgb}{0.0, 0.42, 0.24}
 
 \begin{document}
+
 \maketitle 
 
 \tableofcontents
 
 \section{Introdução}
 
+Como modelar a decisão de um agente cujas alternativas têm resultados que dependem de uma realização futura de estados da natureza e, ao ter que escolher um conjunto dessas alternativas, esse agente o faz sem possuir informação completa a respeito desses estados? Para abordar o problema, utilizaremos o \emph{framework} de preferência sobre menus e alguns dos principais resultados de representação funcional das preferências encontrados na literatura até o momento.
+
+Para compreender a motivação do nosso trabalho, considere o caso de um gerente de investimentos de uma instituição financeira que deve decidir como alocar os recursos de seus clientes. Cada portfólio escolhido, trará retornos condicionados a contingências (políticas, econômicas, institucionais etc) que caracterizarão a economia em um futuro próximo. Contudo, apesar de conseguir conjecturar acerca dos estados da natureza que se realizarão, o gerente não possui uma descrição completa de cada um deles. Há aspectos sutis de cada uma dessas contingências, suficientemente importantes para influenciar o retorno dos portfólios, mas que o agente os desconhece e tem consciência disso. Isto significa que, para cada estado da natureza, não há uma única crença a respeito dos possíveis retornos associados ao estado. 
+
+Uma primeira abordagem à decisão sobre menus com incerteza foi proposta em \cite{Kreps1979} e \cite{Kreps1992}. A sugestão do autor foi axiomatizar a preferência sobre menus de alternativas levando em conta a \emph{preferência por flexibilidade}, uma hipótese natural a respeito do comportamento de um agente que não tem certeza a respeito dos seus gostos futuros. Na presença de incerteza, os menus, vistos como \emph{conjuntos de oportunidades}, são tão preferíveis quanto maiores as possibilidades oferecidas por eles. A representação de \cite{Kreps1979}, todavia, não capta integralmente nossa motivação, pois, nela, o tomador de decisão age \emph{como se} houvesse um espaço subjetivo de estados da natureza completamente conhecidos pelo agente, no sentido de não haver ambiguidade dos \emph{payoffs} associados a eles\footnote{Uma abordagem do tipo Savage também seria inadequada pela mesma razão. Ademais, interessa ao pesquisador obter um espaço de estados da natureza subjetivo, observável pelo próprio comportamento do agente \emph{ex post}, quando realizadas as contingências.}.
+
+De fato, a imprecisão que caracteriza as contingências antecipadas pelo tomador de decisão está associada à ambiguidade presente em modelos de preferência com múltiplas \emph{priors}, como é o caso de \cite{Gilboa1989}. Veremos que a representação da preferência sobre menus com contingências imprecisas tem um formato semelhante àquele encontrado na modelagem de decisão sobre atos com ambiguidade.   
+
+Modelaremos nosso problema baseando-nos no trabalho de \cite{Epstein2007} - EMS, daqui por diante - que, por sua vez, generalizaram o arcabouço DLR \footnote{\cite{Dekel2001}}, no qual os agentes possuem uma preferência sobre menus de loterias derivadas de um espaço de alternativas finito. EMS estendem esse modelo ao incorporar a imprecisão das contingências que se realizarão após a escolha dos menus. 
+
+Observe que a utilidade dos menus encontrada em DLR, dada por,               
+$$ W^{DLR}(x)=\int \max_{\beta\in x}u(\beta)d\mu(u) $$
+toma uma única crença $\mu$ a respeito do conjunto de estados da natureza como suficiente para a tomada de decisão do agente. Isso não é por acaso, pois eles modelam um tomador de decisão que possui uma descrição completa a respeito dos estados, de modo que o retorno de cada loteria para um certo estado é único. EMS incorporam a imprecisão das contingências ao modelar um agente com múltiplas crenças a respeito do retorno das loterias em cada estado e, como em \cite{Gilboa1989}, o agente toma sua decisão com "cautela", visto que a representação de sua preferências sobre menus é do tipo min-max: $$W^{EMS}(x)=\min_{\pi\in\Pi} \int \max_{\beta\in x}u(\beta)d\pi(u)$$ onde $\Pi$ é o conjunto de medidas de probabilidade sobre o espaço subjetivo de estados.
+
+Um característica comum aos modelos apresentados acima é a de que a preferência sobre menus é completa e, portanto, mesmo no caso de não possuir uma descrição exaustiva das contingências futuras, o agente é capaz de comparar quaisquer dois menus que lhe são oferecidos. Nós construiremos uma demonstração alternativa ao modelo EMS que leva em conta a representação obtida em \cite{Kochov2007} para preferências incompletas sobre menus. À semelhança da decisão sobre atos com múltiplas \emph{priors} modelada por \cite{Gilboa2010}, o trabalho de \cite{Kochov2007} nos fornece uma regra de decisão unânime para os menus. Na sua representação, um menu $x$ é preferível a outro menu $y$ se, e somente se, a utilidade em $x$ é maior ou igual à de $y$ para \emph{todas} as crenças formadas a respeito do espaço subjetivo de estados. Adicionalmente, faremos a hipótese de que, ao observar um menu de loterias, nosso agente necessita de apenas um número finito delas para avaliar o menu. O axioma de \emph{Finitiness} nos permitirá concluir que o espaço subjetivo de estados é finito, como veremos adiante.
+
+O restante do trabalho dispõe-se da seguinte forma: na seção 2 descrevemos as primitivas do nosso modelo e, na 3, derivamos o principal resultado a partir da representação de \cite{Kochov2007}. Na seção 4, sugerimos caminhos pelos quais nosso resultado pode ser estendido. 
+
 \section{Axiomatização da prefrência sobre menus}
+{\color{cadmiumgreen} Modelamos um agente que toma sua decisão sobre menus em dois estágios...}
 Seja $B$ um conjunto finito de alternativas e $\Delta(B)$ o conjunto das medidas de probabilidade sobre $B$. $\mathbb{X}$ é a coleção de subconjuntos fechados de $\Delta(B)$, os menus, e $\succsim$ denotará a preferência sobre $\mathbb{X}$. Os axiomas a seguir caracterizam essa relação.
 \begin{description}
 \item [\textit{Order}] $\succsim$ é completa e transitiva  
@@ -87,7 +107,7 @@ Adicionalmente, suponha que o tomador de decisão tenha certeza \textit{ex ante}
 
 \textit{Worst} formaliza a idéia de que o agente não experimenta ganhos de flexibilidade ao incluir  em qualquer menu $x$ a loteria degenerada da pior alternativa $b_*$. Um raciocínio rápido nos garante que $$\Delta(B)\sim B\succsim x\succsim \{b_*\} \; \text{e} \; B\succ \{b_*\}$$ para todo $x$. Por \textit{Indifference to Randomization} e \textit{Monotonicity}, $\Delta(B)\sim B \succsim x$. Além disso, dado que o agente está certo de que $b_*$ é o pior resultado, $x\succsim \{b_*\}$ vale para todo $x$. Por fim, \textit{Monotonicity} garante que $B\succsim \{b_*\}$. Caso $B \sim \{b_*\}$, contrariamos \textit{Nondegeneracy}. 
 
-Tendo conhecido o comportamento do agente face aos menus $\Delta(B)$ e $\{b_*\}$, podemos definir o menu certo $x_p$ como $x_p:=p\Delta(B)+(1-p)\{b_*\}$, i.e. a composição do melhor e pior menu com peso $p\in [0,1]$. O axioma abaixo enuncia a independência de $\succsim$ com relação a menus certos.
+Tendo conhecido o comportamento do agente face aos menus $\Delta(B)$ e $\{b_*\}$, podemos definir o menu certo $x_p$ como $x_p:=p\Delta(B)+(1-p)\{b_*\}$, i.e. a composição do melhor e pior menu com peso $p\in [0,1]$. Como misturá-los a um menu qualquer não traz ganhos de \emph{hedging}, assumiremos o seguinte axioma.
 
 \begin{description}
 \item [\textit{Certainty Independence}] Para $\lambda\in (0,1)$ e $x_p=p\Delta(B)+(1-p)b_*$, temos $$x\succsim x' \Leftrightarrow \lambda x +(1-\lambda)x_p\succsim \lambda x' + (1-\lambda)x_p$$ 

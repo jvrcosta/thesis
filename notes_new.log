@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  24 MAR 2015 02:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  25 MAR 2015 04:08
 entering extended mode
 **notes_new.tex
 
@@ -416,6 +416,12 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -1027,12 +1033,12 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \RaggedRightParindent=\skip74
 \JustifyingParindent=\skip75
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 64.
+LaTeX Font Info:    Try loading font information for U+msa on input line 65.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 64.
+LaTeX Font Info:    Try loading font information for U+msb on input line 65.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1040,90 +1046,96 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.toc")
 \tf@toc=\write5
+ [1
 
+{C:/Users/JVRC/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 74.
+LaTeX Font Warning: Command \small invalid in math mode on input line 94.
 
-[1
-
-{C:/Users/JVRC/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[3]
 Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
-t line 100.
+t line 120.
 
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.thm")
 Package hyperref Info: bookmark level for unknown claim defaults to 0 on input 
-line 106.
+line 126.
 Package hyperref Info: bookmark level for unknown proof defaults to 0 on input 
-line 108.
- [2]
+line 128.
+ [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 113.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\succsim' on input line 113.
+(hyperref)                removing `math shift' on input line 133.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 113.
+(hyperref)                removing `\succsim' on input line 133.
 
-[3]
-("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
-esis\notes_new.thm")
-("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
-esis\notes_new.thm")
-Overfull \hbox (6.47557pt too wide) in paragraph at lines 162--162
-[]\T1/cmr/m/n/10.95 Repare que a []Afir-ma-ção 3[] nos en-sina que, se dois me-
-nus são $\OMS/cmsy/m/n/10 $\T1/cmr/m/n/10.95 -comparáveis,
- []
 
-[4]
-Overfull \hbox (22.45377pt too wide) in paragraph at lines 173--175
-\T1/cmr/m/it/10.95 quer. Pela Afir-ma-ção 5, o con-junto $[]$
- []
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 133.
 
 [5]
-Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input 
-line 195.
-
-Overfull \hbox (4.8453pt too wide) in paragraph at lines 195--196
-[]\T1/cmr/m/it/10.95 A pre-or-dem $\U/msa/m/n/10.95 %[]$ \T1/cmr/m/it/10.95 sa-
-tis-faz \T1/cmr/m/n/10.95 Con-ti-nuity\T1/cmr/m/it/10.95 , \T1/cmr/m/n/10.95 No
-n-de-ge-ne-racy\T1/cmr/m/it/10.95 , \T1/cmr/m/n/10.95 In-de-pen-dence\T1/cmr/m/
-it/10.95 ,
+Overfull \hbox (7.12724pt too wide) in paragraph at lines 170--170
+[]\T1/cmr/m/it/10.95 Para todo menu $\OML/cmm/m/it/10.95 x$\T1/cmr/m/it/10.95 ,
+ ex-iste um sub-con-junto finito
  []
 
 
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.thm")
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
-
+("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
+esis\notes_new.thm")
+Overfull \hbox (6.47557pt too wide) in paragraph at lines 182--182
+[]\T1/cmr/m/n/10.95 Repare que a []Afir-mação 3[] nos en-sina que, se dois menu
+s são $\OMS/cmsy/m/n/10 $\T1/cmr/m/n/10.95 -comparáveis,
  []
 
 [6]
+Overfull \hbox (22.45377pt too wide) in paragraph at lines 193--195
+\T1/cmr/m/it/10.95 quer. Pela Afir-mação 5, o con-junto $[]$
+ []
+
+[7]
+Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input 
+line 215.
+
+Overfull \hbox (4.8453pt too wide) in paragraph at lines 215--216
+[]\T1/cmr/m/it/10.95 A pre-or-dem $\U/msa/m/n/10.95 %[]$ \T1/cmr/m/it/10.95 sat
+-is-faz \T1/cmr/m/n/10.95 Con-ti-nu-ity\T1/cmr/m/it/10.95 , \T1/cmr/m/n/10.95 N
+on-de-gen-er-acy\T1/cmr/m/it/10.95 , \T1/cmr/m/n/10.95 In-de-pen-dence\T1/cmr/m
+/it/10.95 ,
+ []
+
+
+("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
+esis\notes_new.thm")
+Underfull \hbox (badness 10000) in paragraph at lines 223--225
+
+ []
+
+[8]
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.thm")
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 212.
+(hyperref)                removing `math shift' on input line 232.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\succsim' on input line 212.
+(hyperref)                removing `\succsim' on input line 232.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 212.
+(hyperref)                removing `math shift' on input line 232.
 
 
-Overfull \hbox (16.88391pt too wide) in paragraph at lines 222--222
+Overfull \hbox (16.88391pt too wide) in paragraph at lines 242--242
 [] 
  []
 
-[7] [8]
-Overfull \hbox (26.05055pt too wide) detected at line 249
+[9] [10]
+Overfull \hbox (26.05055pt too wide) detected at line 269
 \OML/cmm/m/it/10.95 \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x \OT1/cmr/m/n/10
 .95 + (1 \OMS/cmsy/m/n/10.95   \OML/cmm/m/it/10.95 \OT1/cmr/m/n/10.95 )\OML/cm
 m/m/it/10.95 y\OT1/cmr/m/n/10.95 ) + (1 \OMS/cmsy/m/n/10.95   \OML/cmm/m/it/10.
@@ -1142,7 +1154,7 @@ cmsy/m/n/10.95   \OML/cmm/m/it/10.95 \OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 x
 esis\notes_new.thm")
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.thm")
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
@@ -1154,57 +1166,58 @@ esis\notes_new.thm")
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.thm")
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
-esis\notes_new.thm") [9]
+esis\notes_new.thm") [11]
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.bbl")
 \tf@thm=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 293.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
 
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 293.
 Package rerunfilecheck Info: File `notes_new.out' has not changed.
 (rerunfilecheck)             Checksum: 51069A9539648CB323C1E0BBD0FF8047;456.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 293.
  ) 
 Here is how much of TeX's memory you used:
- 16773 strings out of 493921
- 301324 string characters out of 3147285
- 369641 words of memory out of 3000000
- 19638 multiletter control sequences out of 15000+200000
- 26532 words of font info for 74 fonts, out of 3000000 for 9000
+ 16808 strings out of 493921
+ 301913 string characters out of 3147285
+ 370229 words of memory out of 3000000
+ 19660 multiletter control sequences out of 15000+200000
+ 27218 words of font info for 75 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 56i,11n,55p,1275b,523s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,11n,55p,1275b,521s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-crm0900.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ecrm0600.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
-nappen\ec\dpi600\ecrm0800.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\JVRC\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1095.pk> <C:\Users\JVRC\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\JVR
-C\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\
-Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440
+cbx1200.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ecbi1095.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ecti0900.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\JVRC\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\JVRC\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\JVR
+C\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\
+Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095
 .pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecrm1200.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecrm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/m
-sam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm
-10.pfb>
-Output written on notes_new.pdf (10 pages, 287435 bytes).
+\ecbx1440.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecrm1200.pk> <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\ecrm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
+bols/msbm10.pfb>
+Output written on notes_new.pdf (12 pages, 315405 bytes).
 PDF statistics:
- 572 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
+ 658 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,12 @@
 \begin{thebibliography}{}
 
 \bibitem[\protect\citeauthoryear{Dekel, Lipman, and Rustichini}{Dekel
+  et~al.}{2001}]{Dekel2001}
+Dekel, E., B.~Lipman, and A.~Rustichini (2001).
+\newblock {Representing preferences with a unique subjective state space}.
+\newblock {\em Econometrica\/}~{\em 69\/}(4), 891--934.
+
+\bibitem[\protect\citeauthoryear{Dekel, Lipman, and Rustichini}{Dekel
   et~al.}{2009}]{Dekel2009}
 Dekel, E., B.~L. Lipman, and A.~Rustichini (2009).
 \newblock {Temptation-driven preferences}.
@@ -12,8 +18,31 @@ Epstein, L.~G., M.~Marinacci, and K.~Seo (2007).
 \newblock {Coarse contingencies and ambiguity}.
 \newblock {\em Theoretical Economics\/}~{\em 2}, 355--394.
 
+\bibitem[\protect\citeauthoryear{Gilboa, Maccheroni, Marinacci, and
+  Schmeidler}{Gilboa et~al.}{2010}]{Gilboa2010}
+Gilboa, I., F.~Maccheroni, M.~Marinacci, and D.~Schmeidler (2010).
+\newblock {Objective and Subjective Rationality in a Multiple Prior Model}.
+\newblock {\em Econometrica\/}~{\em 78\/}(2), 755--770.
+
+\bibitem[\protect\citeauthoryear{Gilboa and Schmeidler}{Gilboa and
+  Schmeidler}{1989}]{Gilboa1989}
+Gilboa, I. and D.~Schmeidler (1989).
+\newblock {Maxmin expected utility with non-unique prior}.
+\newblock {\em Journal of mathematical economics\/}~(December).
+
 \bibitem[\protect\citeauthoryear{Kochov}{Kochov}{2007}]{Kochov2007}
 Kochov, A.~S. (2007).
 \newblock {Subjective States without the Completeness Axiom}.
+
+\bibitem[\protect\citeauthoryear{Kreps}{Kreps}{1979}]{Kreps1979}
+Kreps, D.~M. (1979).
+\newblock {A Representation Theorem for 'Preference for Flexibility'}.
+\newblock {\em Econometrica\/}~{\em 47\/}(3), 565--577.
+
+\bibitem[\protect\citeauthoryear{Kreps}{Kreps}{1992}]{Kreps1992}
+Kreps, D.~M. (1992).
+\newblock {Static choice in the presence of unforeseen contingencies}.
+\newblock In {\em Economic Analysis of Markets and Games: Essays in Honor of
+  Frank Hahn}, pp.\  258--281. MIT Press.
 
 \end{thebibliography}
