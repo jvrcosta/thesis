@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  25 MAR 2015 21:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  26 MAR 2015 02:58
 entering extended mode
 **notes_new.tex
 
@@ -1187,7 +1187,7 @@ esis\notes_new.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 299.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 299.
 Package rerunfilecheck Info: File `notes_new.out' has not changed.
-(rerunfilecheck)             Checksum: 51069A9539648CB323C1E0BBD0FF8047;456.
+(rerunfilecheck)             Checksum: 56C9F44CE43E56D907E84242D11B8768;457.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 299.
  ) 
 Here is how much of TeX's memory you used:
@@ -1223,9 +1223,9 @@ onts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb>
-Output written on notes_new.pdf (12 pages, 314200 bytes).
+Output written on notes_new.pdf (12 pages, 314575 bytes).
 PDF statistics:
- 659 PDF objects out of 1000 (max. 8388607)
+ 660 PDF objects out of 1000 (max. 8388607)
  60 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
