@@ -1,39 +1,48 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: notes_new.aux
 The style file: chicago.bst
 Database file #1: library.bib
-Repeated entry---line 1937 of file library.bib
- : @unpublished{Kochov2007
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1974 of file library.bib
- : @article{Dekel2001
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1985 of file library.bib
- : @article{Gilboa2010
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2048 of file library.bib
+Repeated entry---line 1941 of file library.bib
  : @article{Gilboa1989
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2057 of file library.bib
+Repeated entry---line 1950 of file library.bib
  : @incollection{Kreps1992
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2121 of file library.bib
+Repeated entry---line 1979 of file library.bib
  : @article{Kreps1979
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2342 of file library.bib
+Repeated entry---line 2052 of file library.bib
+ : @article{Gilboa2010
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2112 of file library.bib
+ : @article{Kopylov2009
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2164 of file library.bib
+ : @article{Bewley2002
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2175 of file library.bib
  : @article{Epstein2007
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2352 of file library.bib
+Repeated entry---line 2185 of file library.bib
  : @article{Dekel2009
  :                   ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2265 of file library.bib
+ : @unpublished{Kochov2007
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2316 of file library.bib
+ : @article{Dekel2001
+ :                   ,
+I'm skipping whatever remains of this entry
+Warning--empty note in Bewley1986a
 Warning--no volume for Gilboa1989
 Warning--page numbers missing in Gilboa1989
 Warning--empty note in Kochov2007
-(There were 8 error messages)
+(There were 10 error messages)
