@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  25 MAR 2015 04:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  25 MAR 2015 21:25
 entering extended mode
 **notes_new.tex
 
@@ -1059,24 +1059,25 @@ t line 120.
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.thm")
 Package hyperref Info: bookmark level for unknown claim defaults to 0 on input 
-line 126.
-Package hyperref Info: bookmark level for unknown proof defaults to 0 on input 
-line 128.
+line 127.
  [4]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 133.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\succsim' on input line 133.
+Package hyperref Info: bookmark level for unknown proof defaults to 0 on input 
+line 129.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 133.
+(hyperref)                removing `math shift' on input line 134.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\succsim' on input line 134.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 134.
 
 [5]
-Overfull \hbox (7.12724pt too wide) in paragraph at lines 170--170
+Overfull \hbox (7.12724pt too wide) in paragraph at lines 176--176
 []\T1/cmr/m/it/10.95 Para todo menu $\OML/cmm/m/it/10.95 x$\T1/cmr/m/it/10.95 ,
  ex-iste um sub-con-junto finito
  []
@@ -1086,21 +1087,28 @@ Overfull \hbox (7.12724pt too wide) in paragraph at lines 170--170
 esis\notes_new.thm")
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.thm")
-Overfull \hbox (6.47557pt too wide) in paragraph at lines 182--182
+Overfull \hbox (6.47557pt too wide) in paragraph at lines 188--188
 []\T1/cmr/m/n/10.95 Repare que a []Afir-mação 3[] nos en-sina que, se dois menu
 s são $\OMS/cmsy/m/n/10 $\T1/cmr/m/n/10.95 -comparáveis,
  []
 
 [6]
-Overfull \hbox (22.45377pt too wide) in paragraph at lines 193--195
+Overfull \hbox (22.45377pt too wide) in paragraph at lines 199--201
 \T1/cmr/m/it/10.95 quer. Pela Afir-mação 5, o con-junto $[]$
+ []
+
+
+Overfull \hbox (2.23158pt too wide) in paragraph at lines 212--213
+[]\T1/cmr/m/it/10.95 Uma pre-or-dem $\U/msa/m/n/10.95 <$ \T1/cmr/m/it/10.95 sat
+-is-faz \T1/cmr/m/n/10.95 Con-ti-nu-ity\T1/cmr/m/it/10.95 , \T1/cmr/m/n/10.95 N
+on-
  []
 
 [7]
 Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input 
-line 215.
+line 221.
 
-Overfull \hbox (4.8453pt too wide) in paragraph at lines 215--216
+Overfull \hbox (4.8453pt too wide) in paragraph at lines 221--222
 []\T1/cmr/m/it/10.95 A pre-or-dem $\U/msa/m/n/10.95 %[]$ \T1/cmr/m/it/10.95 sat
 -is-faz \T1/cmr/m/n/10.95 Con-ti-nu-ity\T1/cmr/m/it/10.95 , \T1/cmr/m/n/10.95 N
 on-de-gen-er-acy\T1/cmr/m/it/10.95 , \T1/cmr/m/n/10.95 In-de-pen-dence\T1/cmr/m
@@ -1110,7 +1118,7 @@ on-de-gen-er-acy\T1/cmr/m/it/10.95 , \T1/cmr/m/n/10.95 In-de-pen-dence\T1/cmr/m
 
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.thm")
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
 
  []
 
@@ -1119,23 +1127,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--225
 esis\notes_new.thm")
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 232.
+(hyperref)                removing `math shift' on input line 238.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\succsim' on input line 232.
+(hyperref)                removing `\succsim' on input line 238.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 232.
+(hyperref)                removing `math shift' on input line 238.
 
 
-Overfull \hbox (16.88391pt too wide) in paragraph at lines 242--242
+Overfull \hbox (16.88391pt too wide) in paragraph at lines 248--248
 [] 
  []
 
 [9] [10]
-Overfull \hbox (26.05055pt too wide) detected at line 269
+Overfull \hbox (26.05055pt too wide) detected at line 275
 \OML/cmm/m/it/10.95 \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x \OT1/cmr/m/n/10
 .95 + (1 \OMS/cmsy/m/n/10.95   \OML/cmm/m/it/10.95 \OT1/cmr/m/n/10.95 )\OML/cm
 m/m/it/10.95 y\OT1/cmr/m/n/10.95 ) + (1 \OMS/cmsy/m/n/10.95   \OML/cmm/m/it/10.
@@ -1154,7 +1162,7 @@ cmsy/m/n/10.95   \OML/cmm/m/it/10.95 \OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 x
 esis\notes_new.thm")
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.thm")
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
@@ -1170,24 +1178,24 @@ esis\notes_new.thm") [11]
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.bbl")
 \tf@thm=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 293.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 299.
  [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 299.
 
 ("C:\Users\JVRC\Documents\Meus Documentos\Mestrado\4th_semester\dissertation\th
 esis\notes_new.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 293.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 299.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 299.
 Package rerunfilecheck Info: File `notes_new.out' has not changed.
 (rerunfilecheck)             Checksum: 51069A9539648CB323C1E0BBD0FF8047;456.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 293.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 299.
  ) 
 Here is how much of TeX's memory you used:
- 16808 strings out of 493921
- 301913 string characters out of 3147285
- 370229 words of memory out of 3000000
- 19660 multiletter control sequences out of 15000+200000
- 27218 words of font info for 75 fonts, out of 3000000 for 9000
+ 16806 strings out of 493921
+ 301891 string characters out of 3147285
+ 370230 words of memory out of 3000000
+ 19659 multiletter control sequences out of 15000+200000
+ 26532 words of font info for 74 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,11n,55p,1275b,521s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\JVRC\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
@@ -1215,9 +1223,9 @@ onts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb>
-Output written on notes_new.pdf (12 pages, 315405 bytes).
+Output written on notes_new.pdf (12 pages, 314200 bytes).
 PDF statistics:
- 658 PDF objects out of 1000 (max. 8388607)
+ 659 PDF objects out of 1000 (max. 8388607)
  60 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
