@@ -1,7 +1,10 @@
-\select@language {english}
+\select@language {brazil}
 \contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{section.1}
 \contentsline {section}{\numberline {2}Axiomatiza\IeC {\c c}\IeC {\~a}o da prefer\IeC {\^e}ncia sobre menus}{3}{section.2}
 \contentsline {section}{\numberline {3}Representa\IeC {\c c}\IeC {\~a}o funcional de $\succsim $}{6}{section.3}
 \contentsline {subsection}{\numberline {3.1}Representa\IeC {\c c}\IeC {\~a}o de prefer\IeC {\^e}ncias incompletas sobre menus}{8}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Obtendo a forma funcional de $\succsim $}{10}{subsection.3.2}
-\contentsline {section}{\numberline {4}Observa\IeC {\c c}\IeC {\~o}es finais}{13}{section.4}
+\contentsline {section}{\numberline {4}Pesquisas futuras e resultados adicionais}{13}{section.4}
+\contentsline {subsection}{\numberline {4.1}Prefer\IeC {\^e}ncias variacionais}{13}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Racionalidade Objetiva e Subjetiva e Prefer\IeC {\^e}ncias sobre Menus}{13}{subsection.4.2}
+\contentsline {section}{\numberline {5}Observa\IeC {\c c}\IeC {\~o}es finais}{14}{section.5}

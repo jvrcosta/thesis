@@ -9,7 +9,7 @@
 \usepackage{wrapfig}
 
 \usepackage[utf8]{inputenc}
-\usepackage[brazil,english]{babel}
+\usepackage[brazil]{babel}
 \usepackage[T1]{fontenc}
 
 \usepackage{amsmath}
@@ -20,7 +20,7 @@
 \usepackage[pdftex]{graphicx}
 \usepackage{tabularx}
 \usepackage{booktabs}
-\usepackage{multirow}
+%\usepackage{multirow}
 
 \usepackage{tikz}
 \usepackage{pgflibraryarrows}
@@ -53,7 +53,7 @@
 }
 \makeatother
 
-\title{Notas - preferências sobre menus}
+\title{Uma Demonstração Alternativa para Representação de Preferências sobre Menus com Contingências Imprecisas}
 \author{}
 
 \DeclareMathOperator*{\argmax}{\arg\!\max}
@@ -62,7 +62,7 @@
 
 \begin{document}
 %\onehalfspacing
-
+\date{}
 \maketitle 
 
 \tableofcontents
@@ -73,15 +73,15 @@ Como modelar a decisão de um agente cujas alternativas têm resultados que depe
 
 Para compreender a motivação do nosso trabalho, considere o caso de um gerente de investimentos de uma instituição financeira que deve decidir como alocar os recursos de seus clientes. Cada portfólio escolhido, trará retornos condicionados a contingências (políticas, econômicas, institucionais etc) que caracterizarão a economia em um futuro próximo. Contudo, apesar de conseguir conjecturar acerca dos estados da natureza que se realizarão, o gerente não possui uma descrição completa de cada um deles. Há aspectos sutis de cada uma dessas contingências, suficientemente importantes para influenciar o retorno dos portfólios, mas que o agente os desconhece e tem consciência disso. Isto significa que, para cada estado da natureza, não há uma única crença a respeito dos possíveis retornos associados ao estado. 
 
-Uma primeira abordagem à decisão sobre menus com incerteza foi proposta em \cite{Kreps1979} e \cite{Kreps1992}. A sugestão do autor foi axiomatizar a preferência sobre menus de alternativas levando em conta a \emph{preferência por flexibilidade}, uma hipótese natural a respeito do comportamento de um agente que não tem certeza a respeito dos seus gostos futuros. Na presença de incerteza, os menus, vistos como \emph{conjuntos de oportunidades}, são tão preferíveis quanto maiores as possibilidades oferecidas por eles. A representação de \cite{Kreps1979}, todavia, não capta integralmente nossa motivação, pois, nela, o tomador de decisão age \emph{como se} houvesse um espaço subjetivo de estados da natureza completamente conhecidos pelo agente, no sentido de não haver ambiguidade dos \emph{payoffs} associados a eles\footnote{Uma abordagem do tipo Savage também seria inadequada pela mesma razão. Ademais, interessa ao pesquisador obter um espaço de estados da natureza subjetivo, observável pelo próprio comportamento do agente \emph{ex post}, quando realizadas as contingências.}.
+Uma primeira abordagem à decisão sobre menus com incerteza foi proposta em \cite{Kreps1979} e \cite{Kreps1992}. A sugestão do autor foi axiomatizar a preferência sobre menus de alternativas levando em conta a \emph{preferência por flexibilidade}, uma hipótese natural a respeito do comportamento de um agente que não tem certeza a respeito dos seus gostos futuros. Na presença de incerteza, os menus, vistos como \emph{conjuntos de oportunidades}, são tão preferíveis quanto maiores as possibilidades oferecidas por eles. A representação de \cite{Kreps1979}, todavia, não capta integralmente nossa motivação, pois, nela, o tomador de decisão age \emph{como se} houvesse um espaço subjetivo de estados da natureza completamente conhecidos pelo agente, no sentido de não haver ambiguidade dos \emph{payoffs} associados a eles. Uma abordagem do tipo Savage também seria inadequada pela mesma razão. Ademais, interessa ao pesquisador obter um espaço de estados da natureza subjetivo, observável pelo próprio comportamento do agente \emph{ex post}, quando realizadas as contingências.
 
 De fato, a imprecisão que caracteriza as contingências antecipadas pelo tomador de decisão está associada à ambiguidade presente em modelos de preferência com múltiplas \emph{priors}, como é o caso de \cite{Gilboa1989}. Veremos que a representação da preferência sobre menus com contingências imprecisas tem um formato semelhante àquele encontrado na modelagem de decisão sobre atos com ambiguidade.   
 
-Modelaremos nosso problema baseando-nos no trabalho de \cite{Epstein2007} - EMS, daqui por diante - que, por sua vez, generalizaram o arcabouço DLR \footnote{\cite{Dekel2001}}, no qual os agentes possuem uma preferência sobre menus de loterias derivadas de um espaço de alternativas finito. EMS estendem esse modelo ao incorporar a imprecisão das contingências que se realizarão após a escolha dos menus. 
+Modelaremos nosso problema baseando-nos no trabalho de \cite{Epstein2007} - EMS, daqui por diante - que, por sua vez, generalizaram o arcabouço DLR, de \cite{Dekel2001}, no qual os agentes possuem uma preferência sobre menus de loterias derivadas de um espaço de alternativas finito. EMS estendem esse modelo ao incorporar a imprecisão das contingências que se realizarão após a escolha dos menus. 
 
 Observe que a utilidade dos menus encontrada em DLR, dada por,               
 $$ W^{DLR}(x)=\int \max_{\beta\in x}u(\beta)d\mu(u) $$
-toma uma única crença $\mu$ a respeito do conjunto de estados da natureza como suficiente para a tomada de decisão do agente. Isso não é por acaso, pois eles modelam um tomador de decisão que possui uma descrição completa a respeito dos estados, de modo que o retorno de cada loteria para um certo estado é único. EMS incorporam a imprecisão das contingências ao modelar um agente com múltiplas crenças a respeito do retorno das loterias em cada estado e, como em \cite{Gilboa1989}, o agente toma sua decisão com "cautela", visto que a representação de sua preferências sobre menus é do tipo min-max: $$W^{EMS}(x)=\min_{\pi\in\Pi} \int \max_{\beta\in x}u(\beta)d\pi(u)$$ onde $\Pi$ é o conjunto de medidas de probabilidade sobre o espaço subjetivo de estados.
+toma uma única crença $\mu$ a respeito do conjunto de estados da natureza como suficiente para a tomada de decisão do agente. Isso não é por acaso, pois eles modelam um tomador de decisão que possui uma descrição completa a respeito dos estados, de modo que o retorno de cada loteria para um certo estado é único. EMS incorporam a imprecisão das contingências ao modelar um agente com múltiplas crenças a respeito do retorno das loterias em cada estado e, como em \cite{Gilboa1989}, o agente toma sua decisão com ``cautela'', visto que a representação de suas preferências sobre menus é do tipo min-max: $$W^{EMS}(x)=\min_{\pi\in\Pi} \int \max_{\beta\in x}u(\beta)d\pi(u)$$ onde $\Pi$ é o conjunto de medidas de probabilidade sobre o espaço subjetivo de estados.
 
 Um característica comum aos modelos apresentados acima é a de que a preferência sobre menus é completa e, portanto, mesmo no caso de não possuir uma descrição exaustiva das contingências futuras, o agente é capaz de comparar quaisquer dois menus que lhe são oferecidos. Nós construiremos uma demonstração alternativa ao modelo EMS que leva em conta a representação obtida em \cite{Kochov2007} para preferências incompletas sobre menus. À semelhança da decisão sobre atos com múltiplas \emph{priors} modelada por \cite{Gilboa2010}, o trabalho de \cite{Kochov2007} nos fornece uma regra de decisão unânime para os menus. Na sua representação, um menu $x$ é preferível a outro menu $y$ se, e somente se, a utilidade em $x$ é maior ou igual à de $y$ para \emph{todas} as crenças formadas a respeito do espaço subjetivo de estados. Adicionalmente, faremos a hipótese de que, ao observar um menu de loterias, nosso agente necessita de apenas um número finito delas para avaliar o menu. O axioma de \emph{Finitiness} nos permitirá concluir que o espaço subjetivo de estados é finito, como veremos adiante.
 
@@ -91,34 +91,34 @@ O restante do trabalho dispõe-se da seguinte forma: na seção 2 descrevemos as
 Modelamos um agente que toma sua decisão em dois estágios: no primeiro, os menus são comparados tendo em vista que, em um segundo momento, após a realização do estado da natureza, uma loteria será escolhida de acordo com a preferência \emph{ex post} do agente.  
 Seja $B$ um conjunto finito de alternativas e $\Delta(B)$ o conjunto das medidas de probabilidade sobre $B$. $\mathbb{X}$ é a coleção de subconjuntos fechados de $\Delta(B)$, os menus, e $\succsim$ denotará a preferência sobre $\mathbb{X}$. Os axiomas a seguir caracterizam essa relação.
 \begin{description}
-\item [\textit{Order}] $\succsim$ é completa e transitiva  
-\item [\textit{Continuity}] Para todo $x$, $\{y\in \mathbb{X}:y\succsim x\}$ e $\{y\in \mathbb{X}:x\succsim y\}$ são fechados%\footnote{Lembre-se que, apenas no caso de $\succsim$ ser ordem, isso é equivalente a dizer que $\succsim$ é um subconjunto fechado de $\mathbb{X}\times\mathbb{X}$}. 
+\item [\textit{Order}] $\succsim$ é completa e transitiva.  
+\item [\textit{Continuity}] Para todo $x$, $\{y\in \mathbb{X}:y\succsim x\}$ e $\{y\in \mathbb{X}:x\succsim y\}$ são fechados em relação à topologia induzida pela métrica de Hausdorff.%\footnote{Lembre-se que, apenas no caso de $\succsim$ ser ordem, isso é equivalente a dizer que $\succsim$ é um subconjunto fechado de $\mathbb{X}\times\mathbb{X}$}. 
 \item [\textit{Monotonicity}] Para quaisquer $x$, $x'$ $\in\mathbb{X}$ com $x\begin{small}\supseteq\end{small} x'$, temos $x\succsim x'$. 
 %\item [\textit{Independence}] Para quaisquer $x$,$x'$ e $y$ e $\lambda\in(0,1)$, $$x\succsim x'\Leftrightarrow \lambda x+(1-\lambda)y\succsim \lambda x'+(1-\lambda)y$$
 \item [\textit{Indifference to Randomization (IR)}] $x\sim co(x)$, o fecho convexo de $x$. 
 \item [\textit{Nondegeneracy}] Existem menus $x$,$x'$ $\in \mathbb{X}$ tais que $x\succ x'$.
 \item [\textit{Preference Convexity}] $x\succsim x' \Rightarrow \lambda x +(1-\lambda)x'\succsim x'$.
-\item[\textit{Finiteness}] Para todo $x$, existe um menu finito $x^f$ tal que, para todo $\lambda\in (0,1]$ e qualquer menu $x'$, $\lambda x +(1-\lambda)x' \sim \lambda x^f +(1-\lambda)x'$.
+\item[\textit{Finiteness}] Para todo $x$, existe um menu finito $x^f\subseteq x$ tal que, para todo $\lambda\in (0,1]$ e qualquer menu $x'$, $\lambda x +(1-\lambda)x' \sim \lambda x^f +(1-\lambda)x'$.
 \end{description}  
 
-Prevenimos indiferença total ao supor \emph{Nondegeneracy}. Para um tomador de decisão que não está certo a respeito das probabilidades dos estados futuros, é natural assumir preferência por flexibilidade, como em \citep{Kreps1979}. Por conta disso, assumimos monotonicidade da preferência. O axioma de \emph{Preference Convexity} tem a mesma motivação e traduz a idéia de que o agente tem ganhos de \emph{hedging} ao misturar dois menus quaisquer, dada a incerteza \emph{ex ante} que caracteriza o estágio de comparação dos menus. A motivação para \emph{Continuity} tem caráter técnico. Assumir que a preferência não experimenta "saltos" em qualquer par de menus nos permitirá invocar a representação de preferências incompletas de \cite{Kochov2007}, como ficará claro adiante. 
+Prevenimos indiferença total ao supor \emph{Nondegeneracy}. Para um tomador de decisão que não está certo a respeito das probabilidades dos estados futuros, é natural assumir preferência por flexibilidade, como em \cite{Kreps1979}. Por conta disso, assumimos monotonicidade da preferência. O axioma de \emph{Preference Convexity} tem a mesma motivação e traduz a idéia de que o agente tem ganhos de \emph{hedging} ao misturar dois menus quaisquer, dada a incerteza \emph{ex ante} que caracteriza o estágio de comparação dos menus. A motivação para \emph{Continuity} tem caráter técnico. Assumir que a preferência não experimenta "saltos" em qualquer par de menus nos permitirá invocar a representação de preferências incompletas de \cite{Kochov2007}, como ficará claro adiante. 
 
 Ao assumirmos \emph{Indifference to Randomization}, estamos, implicitamente, fazendo uma hipótese a respeito do \emph{timing} da incerteza enfrentada pelo agente. Mais especificamente, estamos supondo que quando um estado da natureza se realiza, toda a ambiguidade que marcava a decisão \emph{ex ante} desaparece, pois, nesse momento, uma descrição completa daquele estado está disponível ao tomador de decisão. A ambiguidade não persiste e, desse modo, o agente antecipa a escolha entre as loterias do menu previamente optado com intuito de maximizar uma utilidade vNM e, portanto, os menus $x$ e $co(x)$ lhe são indiferentes. Se, contudo, a ambiguidade persiste \emph{ex post}, IR deixa de ser razoável pois o agente pode experimentar ganhos estritos de randomização no segundo estágio.    
 
-Quanto à hipótese de \emph{Finitiness}, a intuição é a de que, mesmo sem possuir uma descrição completa dos estados subjetivos, nosso agente necessita de apenas um subconjunto finito de loterias dentro de cada menu para avaliá-lo. Veremos na demonstração do Lema 1 que essa hipótese está diretamente relacionada à estrutura aditiva finita da representação do Teorema 1, visto que ela é condição suficiente para garantir a finitude do espaço de estados subjetivos\footnote{Outras formas de \emph{Finitiness} foram utilizadas na literatura, e.g. \cite{Dekel2009}. Para uma discussão da relação entre \emph{Finiteness} e formas aditivas finitas de utilidade, veja o trabalho de \cite{Kopylov2009}.}. 
+Quanto à hipótese de \emph{Finitiness}, a intuição é a de que, mesmo sem possuir uma descrição completa dos estados subjetivos, nosso agente necessita de apenas um subconjunto finito de loterias dentro de cada menu para avaliá-lo. Veremos na demonstração do Lema 1 que essa hipótese está diretamente relacionada à estrutura aditiva finita da representação do Teorema 1, visto que ela é condição suficiente para garantir a finitude do espaço de estados subjetivos. Outras formas de \emph{Finitiness} foram utilizadas na literatura, e.g. \cite{Dekel2009} e \cite{Kopylov2009}, onde há uma discussão da relação entre \emph{Finiteness} e formas aditivas finitas de utilidade. 
 
-Adicionalmente, suponha que o tomador de decisão tenha certeza \textit{ex ante} de que há uma alternativa $b_*$ que é o pior resultado \textit{ex post} - o mesmo vale para a loteria degenerada $\delta_{b_*}$. Assumiremos também que o agente saiba \textit{ex ante} que o menu $\Delta(B)$ lhe trará o melhor resultado \textit{ex post} ainda que não conheça qual loteria maximizará sua utilidade após a realização do estado.   
+Adicionalmente, suponha que o tomador de decisão tenha certeza \textit{ex ante} de que há uma alternativa $b_*$ que é o pior resultado \textit{ex post} - o mesmo vale para a loteria degenerada $\delta_{b_*}$. Assumiremos também que o agente saiba \textit{ex ante} que o menu $\Delta(B)$ lhe trará o melhor resultado \textit{ex post}, ainda que não conheça qual loteria maximizará sua utilidade após a realização do estado. Consideraremos daqui em diante que $\{b_*\}$ é o menu cujo único elemento é a loteria degenerada $\delta_{b_*}$.   
 
 \begin{description}
 \item[\textit{Worst}] Para a pior alternativa $b_*$, ~temos $\lambda\left(x\cup \{b_*\}\right)+(1-\lambda)y\sim \lambda x + (1-\lambda)y$ para quaisquer menus $x,y\in \mathbb{X}$ e $\lambda\in (0,1)$. 
 \end{description}
 
-\textit{Worst} formaliza a idéia de que o agente não experimenta ganhos de flexibilidade ao incluir  em qualquer menu $x$ a loteria degenerada da pior alternativa $b_*$. Um raciocínio rápido nos garante que $$\Delta(B)\sim B\succsim x\succsim \{b_*\} \; \text{e} \; B\succ \{b_*\}$$ para todo $x$. Por \textit{Indifference to Randomization} e \textit{Monotonicity}, $\Delta(B)\sim B \succsim x$. Além disso, dado que o agente está certo de que $b_*$ é o pior resultado, $x\succsim \{b_*\}$ vale para todo $x$. Por fim, \textit{Monotonicity} garante que $B\succsim \{b_*\}$. Caso $B \sim \{b_*\}$, contrariamos \textit{Nondegeneracy}. 
+Nossa versão de \emph{Worst} é distinta daquela utilizada por EMS. Aqui, prescindimos da definição de uma relação de dominância sobre as loterias e de posteriormente estendê-la a todo o conjunto de menus, como é feito em \cite{Kreps1979} e em EMS. Além disso, ficará claro na seção seguinte que nossa opção gera uma forma de \emph{Worst} mais próxima daquela tradicionalmente encontrada na literatura de utilidade esperada, quando começaremos a explorar uma restrição específica de $\succsim$. Quanto à motivação, \emph{Worst} formaliza a idéia de que o agente não experimenta ganhos de flexibilidade ao incluir  em qualquer menu $x$ a loteria degenerada da pior alternativa $b_*$. Um raciocínio rápido nos garante que $$\Delta(B)\succsim x\succsim \{b_*\} \; \text{e} \; \Delta(B)\succ \{b_*\}$$ para todo $x$. Por \textit{Monotonicity}, $\Delta(B) \succsim x$. Além disso, dado que o agente está certo de que $b_*$ é o pior resultado, $x\succsim \{b_*\}$ vale para todo $x$. Por fim, \textit{Monotonicity} garante que $\Delta(B)\succsim \{b_*\}$. Caso $\Delta(B) \sim \{b_*\}$, contrariamos \textit{Nondegeneracy}. 
 
 Tendo conhecido o comportamento do agente face aos menus $\Delta(B)$ e $\{b_*\}$, podemos definir o menu certo $x_p$ como $x_p:=p\Delta(B)+(1-p)\{b_*\}$, i.e. a composição do melhor e pior menu com peso $p\in [0,1]$. Como misturá-los a um menu qualquer não traz ganhos de \emph{hedging}, assumiremos o seguinte axioma.
 
 \begin{description}
-\item [\textit{Certainty Independence}] Para $\lambda\in (0,1)$ e $x_p=p\Delta(B)+(1-p)b_*$, temos $$x\succsim x' \Leftrightarrow \lambda x +(1-\lambda)x_p\succsim \lambda x' + (1-\lambda)x_p$$ 
+\item [\textit{Certainty Independence}] Para $\lambda\in (0,1)$ e $x_p=p\Delta(B)+(1-p)\{b_*\}$, temos $$x\succsim x' \Leftrightarrow \lambda x +(1-\lambda)x_p\succsim \lambda x' + (1-\lambda)x_p$$ 
 
 %\item [\textit{Mild Continuity}] Para todo $x$, $\{p\in[0,1]:x_p\succsim x\}$ e $\{p\in[0,1]:x\succsim x_p\}$ são fechados.
 \end{description}
@@ -126,13 +126,13 @@ Tendo conhecido o comportamento do agente face aos menus $\Delta(B)$ e $\{b_*\}$
 O principal resultado do nosso trabalho é a construção da representação funcional da preferência sobre menus satisfazendo os axiomas acima, baseada em \cite{Epstein2007}, conforme o teorema abaixo.
 
 \begin{theorem} \label{nossoteorema} A preferência $\succsim$ sobre o espaço de menus $\mathbb{X}$ satisfaz \emph{Order}, \emph{Continuity}, \emph{Monotonicity}, \emph{Indifference to Randomization}, \emph{Nondegeneracy}, \emph{Preference Convexity}, \emph{Finiteness}, \emph{Worst} e \emph{Certainty Independence} se, e somente se, existe um conjunto finito de utilidades $N\subseteq \{u \in \mathbb{R}^B_+:u(b_*)=0\text { e }\max_{B}u(b)=1\}$ e um conjunto fechado e convexo $\Pi$ de medidas de probabilidade sobre $N$ tais que 
-\[x \succsim y \;\Leftrightarrow\; \min_{\pi\in\Pi}\sum_{u\in N} \pi(u)\max_{\beta\in x}u(\beta)\geq \min_{\pi\in\Pi}\sum_{u\in N} \pi(u)\max_{\beta\in y}u(\beta)\]
-para quaisquer $x,y\in\mathbb{X}$.
-\end{theorem} 
+\[x \succsim y \;\Leftrightarrow\; \min_{\pi\in\Pi}\sum_{u\in N} \pi(u)\max_{\beta\in x}\mathbb{E}_\beta(u)\geq \min_{\pi\in\Pi}\sum_{u\in N} \pi(u)\max_{\beta\in y}\mathbb{E}_\beta(u)\]
+para quaisquer $x,y\in\mathbb{X}$ e $\mathbb{E}_\beta(u)$ a utilidade esperada vNM
+da loteria $\beta$. \end{theorem} 
 
 Um resultado importante para a demonstração do \thref{nossoteorema} é o de que todo menu $x$ possui um menu certo $x_p$ indiferente a ele, o que traduz a idéia de que existe um peso $p$ na mistura entre o pior e melhor resultados suficiente para que o tomador de decisão conjecture receber o mesmo \emph{payoff} de um menu com menor nível de certeza. 
 
-\begin{claim}Para todo menu $x$, existe $p\in[0,1]$ tal que $x\sim x_p=p\Delta(B)+(1-p)b_*$. \end{claim}
+\begin{claim}Para todo menu $x$, existe $p\in[0,1]$ tal que $x\sim x_p=p\Delta(B)+(1-p)\{b_*\}$. \end{claim}
 \begin{proof}
 Para um menu qualquer $x$, defina $S:=\{p\in[0,1] : x_p\succsim x\}$, $I:=\{p\in[0,1] : x\succsim x_p\}$ e note que $1\in S$ e $0\in I$. Como $\succsim$ é contínua e completa, podemos afirmar que $S$ e $I$ são fechados e $S\cup I=[0,1]$. Dada a conexidade de $[0,1]$, sabemos que $S\cap I\neq \emptyset$. Portanto, para $p\in S\cap I$, temos que $x\sim x_p$.   
 \end{proof}
@@ -166,15 +166,15 @@ Pela definição de $\succsim^*$, temos que para todo $\lambda\in (0,1]$ e qualq
 Pela Afirmação 3, sabemos que $\Delta(B)\succsim^* \{b_*\}$. Como $\succsim$ satisfaz \emph{Nondegeneracy}, temos que $\Delta(B)\succ \{b_*\}$ e, consequentemente, não é verdade que $\{b_*\}\succsim^*\Delta(B)$.
 \end{proof}
 
-\begin{claim}$\succsim^*$ satisfaz \emph{Indifference to randomization}.\end{claim}
-\begin{proof}
-Tome um menu $x$ qualquer. Note que, para todo menu $y\in \mathbb{X}$ e $\lambda \in (0,1]$, temos 
-\begin{align*}
-\lambda x+(1-\lambda)y &\sim co(\lambda x+(1-\lambda)y)\\ &= co(\lambda co(x)+(1-\lambda)y)\\
-&\sim \lambda co(x)+(1-\lambda)y
-\end{align*}
-Isto mostra que $co(x)\sim^*x$.    
-\end{proof}
+%\begin{claim}$\succsim^*$ satisfaz \emph{Indifference to randomization}.\end{claim}
+%\begin{proof}
+%Tome um menu $x$ qualquer. Note que, para todo menu $y\in \mathbb{X}$ e $\lambda \in (0,1]$, temos 
+%\begin{align*}
+%\lambda x+(1-\lambda)y &\sim co(\lambda x+(1-\lambda)y)\\ &= co(\lambda co(x)+(1-\lambda)y)\\
+%&\sim \lambda co(x)+(1-\lambda)y
+%\end{align*}
+%Isto mostra que $co(x)\sim^*x$.    
+%\end{proof}
 
 %\begin{claim} O conjunto $\left\{\lambda\in[0,1]:\lambda x + (1-\lambda)y\succsim^*\lambda x' + (1-\lambda)y\right\}$ é fechado para quaisquer $x$,$x'$ e $y$.\end{claim}
 %\begin{proof}
@@ -193,7 +193,7 @@ Implicação de \textit{Worst} em $\succsim$ e da definição de $\succsim^*$.
 
 
 
-Repare que a \thref{monotonicidade} nos ensina que, se dois menus são \begin{small}$\subseteq$\end{small}-comparáveis, então também serão \begin{small}$\succsim^*$\end{small}-comparáveis. Além disso, a \thref{continuidade} nos mostra que a continuidade de $\succsim$ é preservada em $\succsim^*$. Novamente, um raciocínio análogo ao feito para a relação $\succsim$ nos mostra que \[B\sim^*\Delta(B)\succsim^* x\succsim^* b_* \text{ e } B\succ^* b_*\]
+Repare que a \thref{monotonicidade} nos ensina que, se dois menus são \begin{small}$\subseteq$\end{small}-comparáveis, então também serão \begin{small}$\succsim^*$\end{small}-comparáveis. Além disso, a \thref{continuidade} nos mostra que a continuidade de $\succsim$ é preservada em $\succsim^*$. Novamente, um raciocínio análogo ao feito para a relação $\succsim$ nos mostra que \[\Delta(B)\succsim^* x\succsim^* \{b_*\} \text{ e } \Delta(B)\succ^* \{b_*\}\]
 
 Vamos, por fim, demonstrar que $\succsim^*$ satisfaz o axioma da Independência. 
 
@@ -203,7 +203,7 @@ Considere menus $x$ e $x'$ tais que $x\succsim^* x'$. Então, para quaisquer $\l
 \begin{align*}
 \theta(\lambda x + (1-\lambda)y)+(1-\theta)z \;&=\; \theta\lambda x + (1-\theta\lambda)\left(\frac{\theta(1-\lambda)}{1-\theta\lambda}y+\frac{1-\theta}{1-\theta\lambda}z\right)\\
 &\succsim\;  \theta\lambda x' + (1-\theta\lambda)\left(\frac{\theta(1-\lambda)}{1-\theta\lambda}y+\frac{1-\theta}{1-\theta\lambda}z\right)\\
-&=\; \theta(\lambda x' + (1-\lambda)y)+(1-\theta)z
+&=\; \theta(\lambda x' + (1-\lambda)y)+(1-\theta)z.
 \end{align*}
 Pela definição de $\succsim^*$, concluímos que $\lambda x + (1-\lambda)y\succsim^*\lambda x' + (1-\lambda)y$. 
 Agora, suponha que $\lambda x + (1-\lambda)y\succsim^*\lambda x' + (1-\lambda)y$ para $\lambda\in(0,1)$ e um menu $y$ qualquer. Pela Afirmação 5, o conjunto $\left\{\lambda\in[0,1]:\lambda x + (1-\lambda)y\succsim^*\lambda x' + (1-\lambda)y\right\}$ é um conjunto fechado e, portanto, $$\hat{\lambda}:=\max\left\{\lambda\in[0,1]:\lambda x + (1-\lambda)y\succsim^*\lambda x' + (1-\lambda)y\right\}$$ está bem definido. Defina ainda $\theta:=\frac{1}{1+\hat{\lambda}}$. Então,
@@ -224,24 +224,22 @@ Uma vez exploradas as propriedades de $\succsim^*$, podemos enunciar o resultado
 \end{enumerate} 
 \end{theorem}
 
-Perceba que, do Teorema 2, é possível concluir que o relaxamento da hipótese de completude da preferência tem o mesmo efeito de ambiguidade anteriormente gerado pela imprecisão de contingências, que motiva a representação no Teorema 1. Contudo, apesar de a ambiguidade nos dois casos estar relacionada ao conceito de incerteza Knightiana tratado em \citep{Bewley1986a}, as representações enunciadas até o momento derivam um espaço de estados subjetivo, observável pelas preferências a\emph{a posteriori} do agente, não sendo necessário tomá-lo como uma primitiva do modelo.  
+Perceba que, do Teorema 2, é possível concluir que o relaxamento da hipótese de completude da preferência tem o mesmo efeito de ambiguidade anteriormente gerado pela imprecisão de contingências, que motiva a representação no Teorema 1. Contudo, apesar de a ambiguidade nos dois casos estar relacionada ao conceito de incerteza Knightiana tratado em \cite{Bewley1986a}, as representações enunciadas até o momento derivam um espaço de estados subjetivo, observável pelas preferências \emph{a posteriori} do agente, não sendo necessário tomá-lo como uma primitiva do modelo.  
 
-Assim como no caso da preferência DLR, o estado subjetivo em \cite{Kochov2007} é único. Isso significa que, para quaisquer duas representações da preferência incompleta, os estados subjetivos associados são o mesmo. Mais ainda, esse espaço é mínimo no sentido de não haver dois estados $s$ e $s'$ que geram uma mesma preferência \emph{ex post}. No lema abaixo, adaptamos o resultado de \cite{Kochov2007} para a relação $\succsim^*$. 
+Assim como no caso da preferência DLR, o estado subjetivo em \cite{Kochov2007} é único - se duas representações da mesma preferência têm espaços $S$ e $S'$ distintos, então eles coincidem no seus fechos, i.e. $cl(S)=cl(S')$. Mais ainda, esse espaço é mínimo no sentido de não haver dois estados $s$ e $s'$ que geram uma mesma preferência \emph{ex post}. No lema abaixo, adaptamos o resultado de \cite{Kochov2007} para a relação $\succsim^*$. 
 
 \begin{lemma}\label{nossoKochov} Existe um conjunto finito de funções $N\subseteq\{u \in \mathbb{R}^B_+:u(b_*)=0\text { e }\max_{B}u(b)=1\}$ e um conjunto fechado e convexo $\Pi$ de medidas de probabilidade sobre $N$ tais que, para todo $x,y\in\mathbb{X}$:
-\begin{enumerate}[(i)]
-\item $x\succsim^* y$ se, e somente se, $$ \sum_{u\in N} \pi(u)\max_{\beta\in x}u(\beta) \geq \sum_{u\in N} \pi(u)\max_{\beta\in y}u(\beta)\quad \forall\pi\in\Pi$$  
-\item cada $u \in N$ é uma função utilidade esperada, i.e. $$u(\beta)=\sum_{b\in B} \beta(b)u(b).$$ 
-\end{enumerate}     
+$$x\succsim^* y \Leftrightarrow \sum_{u\in N} \pi(u)\max_{\beta\in x}\mathbb{E}_\beta(u) \geq \sum_{u\in N} \pi(u)\max_{\beta\in y}\mathbb{E}_\beta(u)\quad \forall\pi\in\Pi$$  
+     
 \end{lemma}
 \begin{proof}
 
-Prosseguiremos a demonstração do lema em dois passos.\\
-\underline{Passo 1} Vamos mostrar que \emph{Finitiness} é condição suficiente para que o conjunto $S$ de estados da natureza no Teorema 2 seja finito. Seja $(U,\mathcal{M},S)$ uma representação de $\succsim^*$ nos termos do \thref{kochov}. De \cite{Kochov2007}, sabemos que tal representação pode ser construída sem estados redundantes e apenas com estados relevantes. Isto é, para todo par distinto $s,s'\in S$, $U(\cdot,s)$ e $U(\cdot,s')$ representam preferências distintas e, para todo par de menus $x,y$ com $x\subseteq y$ e $\max_{\beta \in x}U(\beta,s)>\max_{\beta \in y}U(\beta,s)$ para algum $s\in S$, nós temos $y\succ^* x$. Considere ainda um menu $x^*$ que é uma esfera em $\Delta (B)$, i.e. seja $x^*$ tal que exista $\beta^*\in\Delta(B)$ e $\delta>0$ com $$x^*=\{\beta\in\Delta(B):||\beta-\beta^*||\leq\delta\}\subseteq\Delta(B).$$ 
+Prosseguiremos a demonstração do lema em três passos.\\
+\underline{Passo 1} Vamos mostrar que \emph{Finitiness} é condição suficiente para que o conjunto $S$ de estados da natureza no Teorema 2 seja finito. Seja $(U,\mathcal{M},S)$ uma representação de $\succsim^*$ nos termos do \thref{kochov}. De \cite{Kochov2007}, sabemos que tal representação pode ser construída sem estados redundantes e apenas com estados relevantes. Isto é, para todo par distinto $s,s'\in S$, $U(\cdot,s)$ e $U(\cdot,s')$ representam preferências distintas e, para todo par de menus $x,y$ com $x\subseteq y$ e $\max_{\beta \in y}U(\beta,s)>\max_{\beta \in x}U(\beta,s)$ para algum $s\in S$, nós temos $y\succ^* x$. Considere ainda um menu $x^*$ que é uma esfera em $\Delta (B)$, i.e. seja $x^*$ tal que exista $\beta^*\in\Delta(B)$ e $\delta>0$ com $$x^*=\{\beta\in\Delta(B):||\beta-\beta^*||\leq\delta\}\subseteq\Delta(B).$$ 
 
 Vamos agora argumentar que o conjunto $S$ necessariamente é finito. Para tanto, note primeiro que, como $x^*$ é uma esfera, para cada $s\in S$, $U(\cdot,s)$ é maximizada por uma única loteria $\beta\in x^*$. Similarmente, cada loteria $\beta\in x^*$ maximiza, no máximo, uma função em  $\{U(\cdot,s): s\in S\}$. Mas então, $x\subseteq x^*$ é tal que $x\sim^* x^*$ somente se $$\{\beta^* \in x^* : \{\beta^*\}=\argmax_{\beta\in x^*} U(\beta,s)\text{ para algum }s\in S\} \subseteq x.$$ Como, por \emph{Finitiness*}, existe um menu finito que satisfaz essa condição, concluímos que $S$ é finito.
 
-Como não há estados redundantes em $S$ e ele é único, não precisamos indexar as utilidades no espaço subjetivo $\{U(\cdot,s):s\in S\}$. Portanto, considere para o Passo 2 abaixo, que $S$ é simplesmente o conjunto de utilidades sobre loterias geradas \emph{a posteriori}.
+O conjunto $S$ é apenas um conjunto de índice e não tem maior significado, só nos importam as funções utilidade associadas a cada $s\in S$. Portanto, consideraremos no Passo 2 abaixo, que $S$ é simplesmente o conjunto de utilidades sobre loterias geradas \emph{a posteriori}.
 \\
 
 \noindent
@@ -251,18 +249,18 @@ e veja que, de fato, $u(b_*)=0$ e $\max_{B} u(b)=1$. Todavia, isso não necessar
 $$ \hat{\pi}(u)=\mu(U)\left[max_B U(b)-U(b_*)\right]$$ Finalmente, para que as medidas normalizadas somem a unidade, precisamos reescrevê-las como abaixo:  \[\pi(u)=\frac{\hat{\pi}(u)}{\sum_{u\in N}\hat{\pi}(u)}.\]\\
 
 \noindent
-\underline{Passo 3} Dos Passos 1 e 2, podemos reescrever o resultado do \thref{kochov} da seguinte maneira $$x\succsim^* y \text{ se, e somente se, } \sum_{u\in N} \mu(u)\max_{\beta\in x}u(\beta) \geq \sum_{u\in N} \mu(u)\max_{\beta\in y}u(\beta)$$ 
+\underline{Passo 3} Dos Passos 1 e 2, podemos reescrever o resultado do \thref{kochov} da seguinte maneira $$x\succsim^* y \text{ se, e somente se, } \sum_{u\in N} \mu(u)\max_{\beta\in x}\mathbb{E}_\beta(u) \geq \sum_{u\in N} \mu(u)\max_{\beta\in y}\mathbb{E}_\beta(u)$$ 
 mantendo o formato de utilidade esperada para $u\in N$.
 \end{proof}
 
 \subsection{Obtendo a forma funcional de $\succsim$}
-Seja $w:\mathbb{X}\times \Pi\rightarrow \mathbb{R}$ a função definida por $$w(x,\pi)=\sum_{u\in N} \pi(u)\max_{\beta\in x}u(\beta).$$ Vamos examinar o valor que ela assume nos menus certos $x_p$, para cada $\pi\in\Pi$:
+Seja $w:\mathbb{X}\times \Pi\rightarrow \mathbb{R}$ a função definida por $$w(x,\pi)=\sum_{u\in N} \pi(u)\max_{\beta\in x}\mathbb{E}_\beta(u).$$ Vamos examinar o valor que ela assume nos menus certos $x_p$, para cada $\pi\in\Pi$:
 \begin{align*}
-w(x_p,\pi)&=\sum_{u\in N} \pi(u)\max_{\beta\in x_{p}}u(\beta)\\
-&= \sum_{u\in N} \pi(u)\max_{\beta\in x_{p}}u(p\beta'+(1-p)\delta_{b_*}),\quad \beta'\in \Delta(B)\\
+w(x_p,\pi)&=\sum_{u\in N} \pi(u)\max_{\beta\in x_{p}}\mathbb{E}_\beta(u)\\
+&= \sum_{u\in N} \pi(u)\max_{\beta\in x_{p}}\mathbb{E}_{p\beta'+(1-p)\delta_{b_*}}(u),\quad \beta'\in \Delta(B)\\
 &=\sum_{u\in N} \pi(u)\max_{\beta\in x_{p}}\left\lbrace p \sum_{b\in B}\beta'(b)u(b)+(1-p)\sum_{b\in B}\delta_{b_*}(b)u(b)\right\rbrace \\
 &=\sum_{u\in N} \pi(u)p\max_{\beta'\in \Delta(B)}\sum_{b\in B}\beta'(b)u(b), \quad pois \; u(b_*)=0\; \text{e}\; \delta_{b_*}(b)=0\; \forall b\neq b_*\\
-&= \sum_{u\in N} \pi(u) p \max_{\beta'\in \Delta(B)} u(\beta')\\
+&= \sum_{u\in N} \pi(u) p \max_{\beta'\in \Delta(B)} \mathbb{E}_{\beta'}(u)\\
 &= p\sum_{u\in N}\pi(u)\cdot 1\\
 &=p
 \end{align*}
@@ -272,7 +270,7 @@ Tendo estudado o valor que $w$ assume sobre os menus certos $x_p$, precisamos ai
 
 \begin{lemma}\label{NCI}A relação $\succsim$ satisfaz \emph{Negative Certainty Independence (NCI)}, i.e. se $x\succsim x_p$, então $\lambda x +(1-\lambda)y\succsim \lambda x_p +(1-\lambda)y$ para todo $\lambda\in(0,1)$ e $y\in \mathbb{X}$.\end{lemma}
 \begin{proof}
-Tome $x$ e $x_p$ em $\mathbb{X}$, com um $p$ qualquer no intervalo $[0,1]$, tais que $x\succsim x_p$. Pela Afirmação 1, sabemos que existe $\bar{p}\in [0,1]$ tal que $x\sim x_{\bar{p}}$. Logo, $x\sim x_{\bar{p}}\succsim x_p$. Como $\succsim$ satisfaz \emph{Certainty Independence}, isto implica que $\bar{p}\geq p$.De observação quue fizemos antes do lema, sabemos que, por sua vez, isto implica que $x_{\bar{p}}\succsim^* x_p$.
+Tome $x$ e $x_p$ em $\mathbb{X}$, com um $p$ qualquer no intervalo $[0,1]$, tais que $x\succsim x_p$. Pela Afirmação 1, sabemos que existe $\bar{p}\in [0,1]$ tal que $x\sim x_{\bar{p}}$. Logo, $x\sim x_{\bar{p}}\succsim x_p$. Como $\succsim$ satisfaz \emph{Certainty Independence}, isto implica que $\bar{p}\geq p$. Da observação que fizemos antes do lema, sabemos que, por sua vez, isto implica que $x_{\bar{p}}\succsim^* x_p$.
 
 Se $y\sim x\sim x_{\bar{p}}$, então $x_{\bar{p}}=\lambda x_{\bar{p}} + (1-\lambda)x_{\bar{p}}\sim\lambda x_{\bar{p}}+(1-\lambda)y$, por \emph{Certainty Independence}. \emph{Preference Convexity} nos permite afirmar que $\lambda x+(1-\lambda)y \succsim x \sim x_{\bar{p}} \sim \lambda x_{\bar{p}}+(1-\lambda)y$. Usando transitividade e a discussão no parágrafo anterior, chegamos em $\lambda x+(1-\lambda)y\succsim \lambda x_p + (1-\lambda)y$. 
 
@@ -297,7 +295,7 @@ donde \emph{Certainty Independence} nos permite afirmar que $\lambda x + (1-\lam
 Munidos dos Lemas 1 e 2, podemos, por fim, estabelecer a forma funcional descrita no Teorema 1 para a representação de $\succsim$. \\
 
 \noindent
-\textbf{Demonstração do \thref{nossoteorema}:}Vamos agora estabelecer a representação da relação $\succsim$ original a partir dos resultados do \thref{nossoKochov} e \thref{NCI}. Recorde que, de \emph{NCI}, aprendemos que as relações $\succsim$ e $\succsim^*$ coincidem para os menus certos, ou seja
+\textbf{Demonstração do \thref{nossoteorema}:} Vamos agora estabelecer a representação da relação $\succsim$ original a partir dos resultados do \thref{nossoKochov} e do \thref{NCI}. Recorde que, de \emph{NCI}, aprendemos que as relações $\succsim$ e $\succsim^*$ coincidem para os menus certos, ou seja
 \begin{align*}
 x_p\succsim x_{\bar{p}}&\Leftrightarrow p\geq \bar{p}\\
 &\Leftrightarrow w(x_p,\pi)\geq w(x_{\bar{p}},\pi)\; \forall\pi\in\Pi \\
@@ -311,12 +309,43 @@ Argumentos usuais da literatura de menus garantem que a forma funcional acima im
 $\blacksquare$
 \end{flushright}
 
+\section{Pesquisas futuras e resultados adicionais}
+\subsection{Preferências variacionais}
+A técnica de demonstração que utilizamos na presente dissertação indica um caminho pelo qual é possível obter uma versão do modelo de preferências variacionais de MMR - \cite{Maccheroni2006} - no espaço de preferências sobre menus. Os passos seriam os seguintes: utilizar a axiomatização das preferências variacionais Bewley de \cite{Faro2015} no mundo de menus para, em seguida, adaptar a demonstração de \cite{Brotherhood2014} e obter uma versão das preferências variacionais de MMR.
+
+\subsection{Racionalidade Objetiva e Subjetiva e Preferências sobre Menus}
+Outro exercício que podemos fazer utilizando as técnicas dessa dissertação consiste em obter uma versão do principal resultado de \cite{Gilboa2010} no mundo de menus. Para tanto, considere um par de preferências $\succsim, \succsim^*\subseteq\mathbb{X}\times\mathbb{X}$. nós vamos assumir que $\succsim^*$ satisfaz os axiomas da seção 3 (afirmações 2 a 8) e que $\succsim$ satisfaz \emph{Order} e \emph{Continuity}. Adicionalmente, assumiremos as seguintes propriedades que relacionam as duas preferências:
+\begin{description}
+\item [\textit{Consistency}] Para todo par de menus $x,y\in\mathbb{X}$, $x\succsim^*y$ implica que $x\succsim y$.
+
+\item[\textit{Default to Certainty}] Para todo menu $x$ e menu certo $x_p$, se não é verdade que $x\succsim^* x_p$, então $x_p \succ x$.
+
+\end{description}
+
+Nós, agora, podemos enunciar o seguinte resultado:\\
+
+\begin{theorem}
+As seguintes afirmações são equivalentes:
+\begin{enumerate}[(i)]
+\item As relações satisfazem os postulados acima e, juntas, satisfazem \emph{Consistency} e \emph{Default to Certainty};
+
+\item Existe um conjunto finito de funções $N\subseteq\{u \in \mathbb{R}^B_+:u(b_*)=0\text { e }\max_{B}u(b)=1\}$ e um conjunto fechado e convexo $\Pi$ de medidas de probabilidade sobre $N$ tais que, para todo $x,y\in\mathbb{X}$:
+
+\[x \succsim y \;\Leftrightarrow\; \min_{\pi\in\Pi}\sum_{u\in N} \pi(u)\max_{\beta\in x}\mathbb{E}_\beta(u)\geq \min_{\pi\in\Pi}\sum_{u\in N} \pi(u)\max_{\beta\in y}\mathbb{E}_\beta(u)\]
+e
+$$x\succsim^* y \Leftrightarrow \sum_{u\in N} \pi(u)\max_{\beta\in x}\mathbb{E}_\beta(u) \geq \sum_{u\in N} \pi(u)\max_{\beta\in y}\mathbb{E}_\beta(u)\quad \forall\pi\in\Pi.$$
+\end{enumerate}
+\end{theorem}
+
+\noindent
+A demonstração do teorema acima segue exatamente os passos em \cite{Gilboa2010} e, por isso, será omitida aqui.
+
 \section{Observações finais}
 
-A representação obtida no Teorema 1 acrescenta à literatura de utilidades aditivas finitas o tratamento de preferências sobre menus com contingências imprecisas. Apesar de semelhante àquela encontrada em EMS, nossa representação exige mais estrutura da relação de preferência, visto que assumimos \emph{Finitiness} e uma forma mais forte de continuidade - EMS assumem que os contornos superior e inferior são fechados pelo menos para os menus certos, e não para qualquer menu, como é o nosso caso. A opção de axiomatização que fizemos, contudo, nos permitiu aproveitar o resultado da representação para preferências incompletas de \cite{Kochov2007}, à semelhança do que é feito no caso de preferências sobre atos, onde a representação em \cite{Bewley2002} pode ser usada como degrau para se chegar ao resultado clássico de \citep{Gilboa1989}\footnote{Para uma versão completa dessa demonstração, ver \citep{Riella2014}.}.  
+A representação obtida no Teorema 1 acrescenta à literatura de utilidades aditivas finitas o tratamento de preferências sobre menus com contingências imprecisas. Apesar de semelhante àquela encontrada em EMS, nossa representação exige mais estrutura da relação de preferência, visto que assumimos \emph{Finitiness} e uma forma mais forte de continuidade - EMS assumem que os contornos superior e inferior são fechados pelo menos para os menus certos, e não para qualquer menu, como é o nosso caso. A opção de axiomatização que fizemos, contudo, nos permitiu aproveitar o resultado da representação para preferências incompletas de \cite{Kochov2007}, à semelhança do que é feito no caso de preferências sobre atos, onde a representação em \cite{Bewley1986a} pode ser usada como degrau para se chegar ao resultado clássico de \cite{Gilboa1989}\footnote{Para uma versão completa dessa demonstração, ver \cite{Riella2014}.}.  
 
 Recorde-se que, ao assumir \emph{IR} na preferência, estamos supondo que a ambiguidade não persiste após a realização de um estado no espaço subjetivo do agente. Se, entretanto, a imprecisão das contingências remanesce no estágio de escolha das loterias, EMS mostram que é possível obter a seguinte representação
-$$W^{EMS}(x)=\int \min_{\pi\in\Pi} \max_{\beta\in x}u(\beta)d\pi(u) $$  
+$$W(x)=\int \min_{\pi\in\Pi} \max_{\beta\in x}u(\beta)d\pi(u) $$  
 abrindo-se mão de \emph{IR}. Um exame de como \emph{Finitiness} e o resultado de \cite{Kochov2007} podem ser utilizados no caso de imprecisão persistente das contingências ainda está por ser feito.
 \clearpage  
 \bibliography{library}

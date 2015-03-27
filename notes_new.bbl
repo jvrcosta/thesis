@@ -1,13 +1,14 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citeauthoryear{Bewley}{Bewley}{2002}]{Bewley2002}
-Bewley, T. (2002).
-\newblock {Knightian decision theory. Part I}.
-\newblock {\em Decisions in economics and finance\/}~{\em 110\/}(807), 79--110.
-
 \bibitem[\protect\citeauthoryear{Bewley}{Bewley}{1986}]{Bewley1986a}
 Bewley, T.~F. (1986).
 \newblock {Knightian Decision Theory: Part I}.
+
+\bibitem[\protect\citeauthoryear{Brotherhood}{Brotherhood}{2014}]{Brotherhood2014}
+Brotherhood, L. M.~M. (2014).
+\newblock {\em {Uma Demonstra\c{c}\~{a}o Alternativa para a
+  Representa\c{c}\~{a}o de Prefer\^{e}ncias Variacionais}}.
+\newblock Ph.\ D. thesis, University of Bras\'{\i}lia.
 
 \bibitem[\protect\citeauthoryear{Dekel, Lipman, and Rustichini}{Dekel
   et~al.}{2001}]{Dekel2001}
@@ -26,6 +27,11 @@ Dekel, E., B.~L. Lipman, and A.~Rustichini (2009).
 Epstein, L.~G., M.~Marinacci, and K.~Seo (2007).
 \newblock {Coarse contingencies and ambiguity}.
 \newblock {\em Theoretical Economics\/}~{\em 2}, 355--394.
+
+\bibitem[\protect\citeauthoryear{Faro}{Faro}{2015}]{Faro2015}
+Faro, J.~H. (2015).
+\newblock {Variational Bewley Preferences}.
+\newblock {\em Journal of Economic Theory\/}~{\em 157}, 699--729.
 
 \bibitem[\protect\citeauthoryear{Gilboa, Maccheroni, Marinacci, and
   Schmeidler}{Gilboa et~al.}{2010}]{Gilboa2010}
@@ -58,6 +64,13 @@ Kreps, D.~M. (1992).
 \newblock {Static choice in the presence of unforeseen contingencies}.
 \newblock In {\em Economic Analysis of Markets and Games: Essays in Honor of
   Frank Hahn}, pp.\  258--281. MIT Press.
+
+\bibitem[\protect\citeauthoryear{Maccheroni, Marinacci, and
+  Rustichini}{Maccheroni et~al.}{2006}]{Maccheroni2006}
+Maccheroni, F., M.~Marinacci, and A.~Rustichini (2006).
+\newblock {Ambiguity aversion, robustness, and the variational representation
+  of preferences}.
+\newblock {\em Econometrica\/}~{\em 74\/}(6), 1447--1498.
 
 \bibitem[\protect\citeauthoryear{Riella}{Riella}{2014}]{Riella2014}
 Riella, G. (2014).
