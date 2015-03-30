@@ -1,0 +1,95 @@
+\documentclass[11pt]{beamer}
+\usetheme{Warsaw}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\author[João Vítor Rego Costa]{João Vítor Rego Costa \\ Orientador: Prof. Dr. Gil Riella}
+\title[Menus com Contingências Imprecisas]{Uma Demonstração Alternativa para
+Representação de Preferências sobre Menus com
+Contingências Imprecisas}
+%\setbeamercovered{transparent} 
+%\setbeamertemplate{navigation symbols}{} 
+%\logo{} 
+%\institute{} 
+%\date{} 
+%\subject{} 
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+%\begin{frame}
+%\tableofcontents
+%\end{frame}
+
+\begin{frame}{Motivação}
+
+\end{frame}
+
+\begin{frame}{Axiomas da Preferência I}
+Seja $B$ um conjunto finito de alternativas e $\Delta(B)$ o conjunto das medidas de probabilidade sobre $B$. $\mathbb{X}$ é a coleção de subconjuntos fechados de $\Delta(B)$, os menus, e $\succsim$ denotará a preferência sobre $\mathbb{X}$.
+
+\vspace{12pt}
+
+\begin{description}
+\item [\textit{Order}] $\succsim$ é completa e transitiva
+\item [\textit{Continuity}] $\forall x\in \mathbb{X}$, $\{y\in \mathbb{X}:y\succsim x\}$ e $\{y\in \mathbb{X}:x\succsim y\}$ são fechados
+
+\item [\textit{Monotonicity}] Para quaisquer $x$, $x'$ $\in\mathbb{X}$ com $x\begin{small}\supseteq\end{small} x'$, temos $x\succsim x'$
+
+\item [\textit{Indifference to Randomization (IR)}] $x\sim co(x)$
+
+\item [\textit{Nondegeneracy}] Existem menus $x$,$x'$ $\in \mathbb{X}$ tais que $x\succ x'$
+
+\item [\textit{Preference Convexity}] $x\succsim x' \Rightarrow \lambda x +(1-\lambda)x'\succsim x'$.
+\end{description}
+\end{frame}
+
+\begin{frame}{Axiomas da Preferência II}
+Para qualquer estado, $\{b_*\}$ e $\Delta(B)$ proporcionam o menor e maior \emph{payoffs}, respectivamente.
+ 
+\vspace{10pt}
+
+Seja, então, o menu certo $x_p:=p\Delta(B)+(1-p)\{b_*\}$
+
+\vspace{10pt}
+
+\begin{description}
+\item [\textit{Certainty Independence}] Para $\lambda\in (0,1)$ e $x_p$, temos $$x\succsim x' \Leftrightarrow \lambda x +(1-\lambda)x_p\succsim \lambda x' + (1-\lambda)x_p$$
+\end{description}
+\pause
+\begin{description}
+\item[\textit{Finiteness}] Para todo $x$, existe um menu finito $x^f\subseteq x$ tal que, para todo $\lambda\in (0,1]$ e qualquer menu $x'$, $\lambda x +(1-\lambda)x' \sim \lambda x^f +(1-\lambda)x'$.
+\item[\textit{Worst}] Para a pior alternativa $b_*$, ~temos $\lambda\left(x\cup \{b_*\}\right)+(1-\lambda)y\sim \lambda x + (1-\lambda)y$ para quaisquer menus $x,y\in \mathbb{X}$ e $\lambda\in (0,1)$.
+\end{description}
+
+\end{frame}
+
+\begin{frame}{Resultado pricipal}
+.
+\end{frame}
+
+\begin{frame}{Dois \emph{approaches}}
+.
+\end{frame}
+
+\begin{frame}{Representação para preferências incompletas}
+.
+\end{frame}
+
+\begin{frame}{\emph{Negative Certainty Independence (NCI)}}
+.
+\end{frame}
+
+\begin{frame}{Aplicações}
+.
+\end{frame}
+
+\begin{frame}{Aplicações II}
+.
+\end{frame}
+\end{document}
