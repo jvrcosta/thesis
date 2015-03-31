@@ -6,6 +6,20 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{natbib}
+
+\theoremstyle{nonumberplain}
+%\theorempostskip{10pt}
+%\theoremseparator{:}
+%\theoremsymbol{\ensuremath{_\square}}
+%\newtheorem{proof}{Dem.}
+
+\theoremstyle{plain}
+%\theoremseparator{~}
+%\theoremsymbol{}
+%\newtheorem{theorem}{Teorema}
+
+
 \author[João Vítor Rego Costa]{João Vítor Rego Costa \\ Orientador: Prof. Dr. Gil Riella}
 \title[Menus com Contingências Imprecisas]{Uma Demonstração Alternativa para
 Representação de Preferências sobre Menus com
@@ -20,14 +34,6 @@ Contingências Imprecisas}
 
 \begin{frame}
 \titlepage
-\end{frame}
-
-%\begin{frame}
-%\tableofcontents
-%\end{frame}
-
-\begin{frame}{Motivação}
-
 \end{frame}
 
 \begin{frame}{Axiomas da Preferência I}
@@ -69,27 +75,102 @@ Seja, então, o menu certo $x_p:=p\Delta(B)+(1-p)\{b_*\}$
 
 \end{frame}
 
-\begin{frame}{Resultado pricipal}
-.
+\begin{frame}{Resultado principal}
+\begin{block}{Teorema 1}
+A preferência $\succsim$ sobre o espaço de menus $\mathbb{X}$ satisfaz os axiomas mencionados acima se, e somente se, existe um conjunto finito de utilidades $N\subseteq \{u \in \mathbb{R}^B_+:u(b_*)=0\text { e }\max_{B}u(b)=1\}$ e um conjunto fechado e convexo $\Pi$ de medidas de probabilidade sobre $N$ tais que 
+\[x \succsim y \;\Leftrightarrow\; \min_{\pi\in\Pi}\sum_{u\in N} \pi(u)\max_{\beta\in x}\mathbb{E}_\beta(u)\geq \min_{\pi\in\Pi}\sum_{u\in N} \pi(u)\max_{\beta\in y}\mathbb{E}_\beta(u)\]
+para quaisquer $x,y\in\mathbb{X}$ e $\mathbb{E}_\beta(u)$ a utilidade esperada vNM
+da loteria $\beta$. 
+\end{block} 
 \end{frame}
 
-\begin{frame}{Dois \emph{approaches}}
-.
+\begin{frame}{Duas abordagens}
+Nosso trabalho propõe uma demonstração alternativa àquela encontrada em \cite{Epstein2007}.
+
+\vspace{10pt}
+
+\begin{description}
+\item[EMS] Como a preferência satisfaz \emph{Certainty Independence}, (i) começa-se obtendo uma representação para os menus certos para, em seguida, (ii) estendê-la a todo o espaço de menus.
+
+\pause
+\vspace{10pt}
+
+\item[Alternativa] (i) Definimos $\succsim^*$ como o maior subconjunto de $\succsim$ que satisfaz independência; (ii) apesar de $\succsim^*$ ser incompleta, podemos... 
+\end{description}
 \end{frame}
 
 \begin{frame}{Representação para preferências incompletas}
-.
+... utilizar o resultado abaixo; 
+\begin{block}{Teorema 2 (\cite{Kochov2007})}
+Uma preordem $\succcurlyeq\subseteq\mathbb{X}\times\mathbb{X}$ satisfaz \emph{Continuity}, \emph{Nondegeneracy}, \emph{Independence} e \emph{Monotonicity} se, e somente se, existe um conjunto $S$, uma função utilidade dependente de estado $U:\Delta(B)\times S\rightarrow R$ e um conjunto fechado e convexo $\mathcal{M}$ de medidas de probabilidade sobre $S$ tais que
+\begin{enumerate}[(i)]
+\item $x\succcurlyeq y$ se, e somente se, $$ \int_{S} \max_{\beta\in x}U(\beta,s)d\mu \geq \int_{S} \max_{\beta\in y}U(\beta,s)d\mu\quad \forall\mu\in\mathcal{M};$$
+\item cada $U(\cdot,s)$ é uma função utilidade esperada, i.e. $$U(\beta,s)=\sum_{b\in B} \beta(b)U(b,s).$$
+\end{enumerate}  
+\end{block}
+\end{frame}
+
+\begin{frame}{Representação para preferências incompletas}
+(iii) adaptamos o Teorema 2 ao caso de $\succsim^*$,  provando a finitude do espaço de estados e normalizando as utilidades;
+
+\begin{block}{Lema 1}
+Existe um conjunto finito de funções $N\subseteq\{u \in \mathbb{R}^B_+:u(b_*)=0\text { e }\max_{B}u(b)=1\}$ e um conjunto fechado e convexo $\Pi$ de medidas de probabilidade sobre $N$ tais que, para todo $x,y\in\mathbb{X}$:
+$$x\succsim^* y \Leftrightarrow \sum_{u\in N} \pi(u)\max_{\beta\in x}\mathbb{E}_\beta(u) \geq \sum_{u\in N} \pi(u)\max_{\beta\in y}\mathbb{E}_\beta(u)\quad \forall\pi\in\Pi$$
+\end{block}
+
 \end{frame}
 
 \begin{frame}{\emph{Negative Certainty Independence (NCI)}}
-.
+(iv) demonstramos que a relação original satisfaz NCI. Por fim, basta obter o formato min-max do Teorema 1.
+\begin{block}{Lema 2}
+A relação $\succsim$ satisfaz \emph{Negative Certainty Independence (NCI)}, i.e. se $x\succsim x_p$, então $\lambda x +(1-\lambda)y\succsim \lambda x_p +(1-\lambda)y$ para todo $\lambda\in(0,1)$ e $y\in \mathbb{X}$.
+\end{block}
+
 \end{frame}
 
 \begin{frame}{Aplicações}
-.
+Propomos duas aplicações da técnica que utilizamos para obter resultados do mundo de \emph{atos} adaptados para o caso de menus:
+\begin{description}
+\item[Preferências Variacionais (MMR)]
+Adaptaríamos a axiomatização Bewley-variacional de \cite{Faro2015} para o caso de menus e, em seguida, aplicaríamos a demonstração de \cite{Brotherhood2014} para obter a representação variacional de \cite{Maccheroni2006}.
+
+\item[Racionalidade Objetiva e Subjetiva (GMMS)]
+Adicionando dois axiomas, \emph{Consistency} e \emph{Default to Certainty}, às primitivas do modelo de \cite{Gilboa2010}, podemos obter uma versão do resultado principal dos autores para o caso de menus.
+\end{description}
+
 \end{frame}
 
 \begin{frame}{Aplicações II}
-.
+Um terceira aplicação possível se refere à prova de que os agentes são \emph{bayesian updaters} de suas crenças quando recebem um sinal a respeito do espaço de estados da natureza (\cite{Riella2013a}).\pause
+\begin{block}{Definição: \emph{Positive Additive Expected Utility (PAEU)}}
+Dizemos que uma relação $\succcurlyeq\subseteq\mathbb{X}\times\mathbb{X}$ é PAEU se existe um conjunto $N\subseteq \{u \in \mathbb{R}^B_+:u(b_*)=0\text { e }\max_{B}u(b)=1\}$ e um conjunto fechado e convexo $\Pi$ de medidas de probabilidade sobre $N$ tais que:
+\begin{enumerate}[1.]
+\item $x \succcurlyeq y \;\Leftrightarrow\;$ $$\min_{\pi\in\Pi}\sum_{u\in N} \pi(u)\max_{\beta\in x}\mathbb{E}_\beta(u)\geq \min_{\pi\in\Pi}\sum_{u\in N} \pi(u)\max_{\beta\in y}\mathbb{E}_\beta(u)$$
+\item $\bigcup_{\pi\in\Pi}supp(\pi)=N$ e, para $u$ e $u'$ distintas, podemos afirmar que não são uma transformação positiva afim uma da outra.
+\end{enumerate}
+\end{block} 
+\end{frame}
+
+\begin{frame}{Aplicações II}
+Agora, considere duas preferências PAEU, $\succcurlyeq$ e $\succcurlyeq^*$. Como fizemos anteriormente, identifique o maior subconjunto dessas relações que satisfazem independência, $\succcurlyeq_r$ e $\succcurlyeq^*_r$, que são incompletas. Impondo o axioma de \emph{Flexibility Consistency} de \cite{Moura2013}...
+\begin{block}{\emph{Flexibility Consistency}}
+Para quaisquer menus $x,y\in \mathbb{X}$, $x\succcurlyeq^*_r y$ e não $x\succcurlyeq_r y$ ou $y\succcurlyeq^*_r x$ e não $y\succcurlyeq_r x$ implicam que existe um menu $z$ tal que $x\cup y\cup z \sim^*_r x\cup z$, mas $x\cup y\cup z \sim_r x\cup z$.
+\end{block} 
+\end{frame}
+
+\begin{frame}
+...obtemos que as seguintes afirmações são equivalentes
+\begin{enumerate}[1.]
+\item Sejam $N$ e $N^*$ os espaços de estados subjetivos de $\succcurlyeq_r$ e $\succcurlyeq^*_r$, respectivamente. Para quaisquer menus $x$ e $y$ com 
+$$\max_{\beta\in x}\mathbb{E}_\beta(u) = \max_{\beta\in y}\mathbb{E}_\beta(u)\;\forall u\in N\setminus N^*,$$
+$x\succcurlyeq_r y \Leftrightarrow y\succcurlyeq^*_r x$.
+\item Para toda representação $(N,\Pi)$ de $\succcurlyeq_r$, existe $M\subseteq N$ tal que $(M,\Pi_M)$ representa $\succcurlyeq_r^*$, onde $\Pi_M$ é o conjunto de \emph{priors} $\pi\in \Pi$ com $\pi(M)>0$ atualizadas pela regra de Bayes.
+\end{enumerate} 
+\end{frame}
+
+\begin{frame}
+\scriptsize
+\bibliography{library}
+\bibliographystyle{chicago}
 \end{frame}
 \end{document}

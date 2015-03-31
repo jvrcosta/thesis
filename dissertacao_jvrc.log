@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  30 MAR 2015 01:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  30 MAR 2015 22:47
 entering extended mode
 **dissertacao_jvrc.tex
 
@@ -1176,16 +1176,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 353.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 353.
 Package rerunfilecheck Info: File `dissertacao_jvrc.out' has not changed.
 (rerunfilecheck)             Checksum: A0BCD281FF4220F05BC328F993884256;726.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 353.
  ) 
 Here is how much of TeX's memory you used:
  16848 strings out of 493921
  302558 string characters out of 3147285
- 371321 words of memory out of 3000000
+ 371322 words of memory out of 3000000
  19699 multiletter control sequences out of 15000+200000
  25846 words of font info for 73 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
