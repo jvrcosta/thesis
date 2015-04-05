@@ -1,52 +1,61 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: dissertacao_jvrc.aux
 The style file: chicago.bst
 Database file #1: library.bib
-Repeated entry---line 1951 of file library.bib
- : @phdthesis{Brotherhood2014
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1970 of file library.bib
- : @article{Kreps1979
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2043 of file library.bib
- : @article{Gilboa2010
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2103 of file library.bib
- : @article{Kopylov2009
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2166 of file library.bib
- : @article{Epstein2007
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2176 of file library.bib
- : @article{Dekel2009
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2241 of file library.bib
- : @unpublished{Kochov2007
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2264 of file library.bib
- : @article{Maccheroni2006
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2307 of file library.bib
+Repeated entry---line 1964 of file library.bib
  : @article{Dekel2001
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2374 of file library.bib
+Repeated entry---line 1989 of file library.bib
+ : @unpublished{Kochov2007
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2036 of file library.bib
  : @article{Gilboa1989
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2383 of file library.bib
+Repeated entry---line 2045 of file library.bib
+ : @article{Kreps1979
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2093 of file library.bib
  : @incollection{Kreps1992
  :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2113 of file library.bib
+ : @phdthesis{Brotherhood2014
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2132 of file library.bib
+ : @article{Gilboa2010
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2183 of file library.bib
+ : @article{Riella2013a
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2245 of file library.bib
+ : @unpublished{Moura2013
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2275 of file library.bib
+ : @article{Kopylov2009
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2360 of file library.bib
+ : @article{Maccheroni2006
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2371 of file library.bib
+ : @article{Epstein2007
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2381 of file library.bib
+ : @article{Dekel2009
+ :                   ,
 I'm skipping whatever remains of this entry
 Warning--empty note in Bewley1986a
 Warning--no volume for Gilboa1989
 Warning--page numbers missing in Gilboa1989
 Warning--empty note in Kochov2007
-(There were 11 error messages)
+Warning--empty note in Moura2013
+(There were 13 error messages)
