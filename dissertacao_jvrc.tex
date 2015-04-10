@@ -212,6 +212,7 @@ toma uma única crença $\mu$ a respeito do conjunto de estados da natureza como
 Um característica comum aos modelos apresentados acima é a de que a preferência sobre menus é completa e, portanto, mesmo no caso de não possuir uma descrição exaustiva das contingências futuras, o agente é capaz de comparar quaisquer dois menus que lhe são oferecidos. Nós construiremos uma demonstração alternativa ao modelo EMS que leva em conta a representação obtida em \cite{Kochov2007} para preferências incompletas sobre menus. À semelhança da decisão sobre atos com múltiplas \emph{priors} modelada por \cite{Gilboa2010}, o trabalho de \cite{Kochov2007} nos fornece uma regra de decisão unânime para os menus. Na sua representação, um menu $x$ é preferível a outro menu $y$ se, e somente se, a utilidade em $x$ é maior ou igual à de $y$ para \emph{todas} as crenças formadas a respeito do espaço subjetivo de estados. Adicionalmente, faremos a hipótese de que, ao observar um menu de loterias, nosso agente necessita de apenas um número finito delas para avaliar o menu. O axioma de \emph{Finitiness} nos permitirá concluir que o espaço subjetivo de estados é finito, como veremos adiante.
 
 O restante do trabalho dispõe-se da seguinte forma: na seção 2 descrevemos as primitivas do nosso modelo e, na 3, derivamos o principal resultado a partir da representação de \cite{Kochov2007}. Na seção 4, apresentamos três aplicações da técnica envolvida na demonstração e, na seção 5, sugerimos um problema que, se resolvido, poderá estender nosso trabalho.
+\clearpage
 \section{Axiomatização da preferência sobre menus}
 Modelamos um agente que toma sua decisão em dois estágios: no primeiro, os menus são comparados tendo em vista que, em um segundo momento, após a realização do estado da natureza, uma loteria será escolhida de acordo com a preferência \emph{ex post} do agente.
 Seja $B$ um conjunto finito de alternativas e $\Delta(B)$ o conjunto das medidas de probabilidade sobre $B$. $\mathbb{X}$ é a coleção de subconjuntos fechados de $\Delta(B)$, os menus, e $\succsim$ denotará a preferência sobre $\mathbb{X}$. Os axiomas a seguir caracterizam essa relação.
@@ -256,13 +257,13 @@ O principal resultado do nosso trabalho é a construção da representação fun
 para quaisquer $x,y\in\mathbb{X}$ e $\mathbb{E}_\beta(u)$ a utilidade esperada vNM
 da loteria $\beta$. \end{theorem}
 Um resultado importante para a demonstração do \thref{nossoteorema} é o de que todo menu $x$ possui um menu certo $x_p$ indiferente a ele, o que traduz a idéia de que existe um peso $p$ na mistura entre o pior e melhor resultados suficiente para que o tomador de decisão conjecture receber o mesmo \emph{payoff} de um menu com menor nível de certeza.
-\begin{claim}Para todo menu $x$, existe $p\in[0,1]$ tal que $x\sim x_p=p\Delta(B)+(1-p)\{b_*\}$. \end{claim}
+\begin{claim}\label{menucertoind} Para todo menu $x$, existe $p\in[0,1]$ tal que $x\sim x_p=p\Delta(B)+(1-p)\{b_*\}$. \end{claim}
 \begin{proof}
 Para um menu qualquer $x$, defina $S:=\{p\in[0,1] : x_p\succsim x\}$, $I:=\{p\in[0,1] : x\succsim x_p\}$ e note que $1\in S$ e $0\in I$. Como $\succsim$ é contínua e completa, podemos afirmar que $S$ e $I$ são fechados e $S\cup I=[0,1]$. Dada a conexidade de $[0,1]$, sabemos que $S\cap I\neq \emptyset$. Portanto, para $p\in S\cap I$, temos que $x\sim x_p$.
 \end{proof}
 
 Na próxima seção, construiremos a representação funcional de $\succsim$ sobre o espaço de menus $\mathbb{X}$ a partir da maior restrição dessa relação invariante com respeito a misturas entre menus, isto é, a maior restrição que satisfaz o axioma da Independência, tradicional na literatura de decisão sob incerteza.
-
+\clearpage
 \section{Representação funcional de $\succsim$}
 Suponha que $\succsim$ satisfaz \textit{Order}, \textit{Nondegeneracy}, \textit{Indifference to randomization}, \textit{Preference Convexity}, \textit{Certainty Independence}, \textit{Continuity}, \textit{Monotonicity}, \textit{Worst} e \textit{Finiteness}. Considere agora seu maior subconjunto que satisfaça também o axioma tradicional de independência. Para isso, defina a relação $\succsim^*$ sobre $\mathbb{X}$ por $$x\succsim^* x' \Leftrightarrow \lambda x + (1-\lambda)y \succsim \lambda x' + (1-\lambda)y$$ para todo $y\in \mathbb{X}$ e $\lambda\in(0,1]$.
 
@@ -305,7 +306,7 @@ Basta utilizar Finitiness de $\succsim$ e a definição de $\succsim^*$.
 Implicação de \textit{Worst} em $\succsim$ e da definição de $\succsim^*$.
 \end{proof}
 
-Repare que a \thref{monotonicidade} nos ensina que, se dois menus são \begin{small}$\subseteq$\end{small}-comparáveis, então também serão \begin{small}$\succsim^*$\end{small}-comparáveis. Além disso, a \thref{continuidade} nos mostra que a continuidade de $\succsim$ é preservada em $\succsim^*$. Novamente, um raciocínio análogo ao feito para a relação $\succsim$ nos mostra que \[\Delta(B)\succsim^* x\succsim^* \{b_*\} \text{ e } \Delta(B)\succ^* \{b_*\}\].
+Repare que a \thref{monotonicidade} nos ensina que, se dois menus são \begin{small}$\subseteq$\end{small}-comparáveis, então também serão \begin{small}$\succsim^*$\end{small}-comparáveis. Além disso, a \thref{continuidade} nos mostra que a continuidade de $\succsim$ é preservada em $\succsim^*$. Novamente, um raciocínio análogo ao feito para a relação $\succsim$ nos mostra que \[\Delta(B)\succsim^* x\succsim^* \{b_*\} \text{ e } \Delta(B)\succ^* \{b_*\}.\]
 
 Vamos, por fim, demonstrar que $\succsim^*$ satisfaz o axioma da Independência.
 
@@ -372,7 +373,7 @@ w(x_p,\pi)&=\sum_{u\in N} \pi(u)\max_{\beta\in x_{p}}\mathbb{E}_\beta(u)\\
 
 donde a penúltima igualdade é consequência do fato de que o elemento que maximiza $u(\beta')$ é a loteria degenerada $\delta_{\bar{b}}$ na qual $\bar{b}\in\argmax u(b)$, ou seja, $u(\bar{b})=1$. É importante notar ainda que $w(x_p,\pi)=p$ para qualquer \textit{prior} $\pi\in\Pi$. Portanto, podemos afirmar que para dois menus certos $x_p$ e $x_{p'}$, temos que $x_p\succsim^* x_{p'}$ se, e somente se, $p\geq p'$.
 
-Tendo estudado o valor que $w$ assume sobre os menus certos $x_p$, precisamos ainda de uma propriedade da relação primitiva $\succsim$ referente a misturas convexas entre menus. Mais precisamente, mostramos abaixo que o Lema 1, \emph{Preference Convexity} e \emph{Certainty Independence} são suficientes para afirmar que se um menu é $\succsim$-preferido a um menu certo, misturá-los a um terceiro menu com pesos iguais mantém a relação invariante. Mais precisamente, mostramos que as primitivas de nosso modelo implicam no axioma \emph{Negative Certainty Independence} de \cite{Dil2010}.
+Tendo estudado o valor que $w$ assume sobre os menus certos $x_p$, precisamos ainda de uma propriedade da relação primitiva $\succsim$ referente a misturas convexas entre menus. Mais precisamente, mostramos abaixo que o Lema 1, \emph{Preference Convexity} e \emph{Certainty Independence} são suficientes para afirmar que se um menu é $\succsim$-preferido a um menu certo, misturá-los a um terceiro menu com pesos iguais mantém a relação invariante. Mais precisamente, mostramos que as primitivas de nosso modelo implicam no axioma \emph{Negative Certainty Independence} de \cite{Dil2010}.\\
 
 \begin{lemma}\label{NCI}A relação $\succsim$ satisfaz \emph{Negative Certainty Independence (NCI)}, i.e. se $x\succsim x_p$, então $\lambda x +(1-\lambda)y\succsim \lambda x_p +(1-\lambda)y$ para todo $\lambda\in(0,1)$ e $y\in \mathbb{X}$.\end{lemma}
 \begin{proof}
@@ -411,7 +412,7 @@ Argumentos usuais da literatura de menus garantem que a forma funcional acima im
 \begin{flushright}
 $\blacksquare$
 \end{flushright}
-
+\clearpage
 \section{Pesquisas futuras e resultados adicionais}
 
 \subsection{Preferências variacionais}
@@ -470,9 +471,9 @@ $x\succcurlyeq_r y \Leftrightarrow y\succcurlyeq^*_r x$.
 \end{theorem}       
 
 Concluímos que, portanto, na presença de contingências imprecisas, o sinal objetivo gera uma preferência cujo espaço de estados subjetivo é um subconjunto daquele anteriormente gerado na ausência do sinal. Mais ainda, o conjunto de \emph{priors} definidas sobre o novo espaço de estados é simplesmente a atualização bayesiana das \emph{priors} definidas sobre o antigo espaço.  
-
+\clearpage
 \section{Observações finais}
-A representação obtida no Teorema 1 acrescenta à literatura de utilidades aditivas finitas o tratamento de preferências sobre menus com contingências imprecisas. Apesar de semelhante àquela encontrada em EMS, nossa representação exige mais estrutura da relação de preferência, visto que assumimos \emph{Finitiness} e uma forma mais forte de continuidade - EMS assumem que os contornos superior e inferior são fechados pelo menos para os menus certos, e não para qualquer menu, como é o nosso caso. A opção de axiomatização que fizemos, contudo, nos permitiu aproveitar o resultado da representação para preferências incompletas de \cite{Kochov2007}, à semelhança do que é feito no caso de preferências sobre atos, onde a representação em \cite{Bewley1986a} pode ser usada como degrau para se chegar ao resultado clássico de \cite{Gilboa1989}\footnote{Para uma versão completa dessa demonstração, ver \cite{Riella2014}.}.
+A representação obtida no Teorema 1 acrescenta à literatura de utilidades aditivas finitas o tratamento de preferências sobre menus com contingências imprecisas. Apesar de semelhante àquela encontrada em EMS, nossa representação exige mais estrutura da relação de preferência, visto que assumimos o axoma de \emph{Finitiness}. Todavia, apesar de utilizarmos uma versão mais forte de continuidade - EMS assumem que os contornos superior e inferior são fechados pelo menos para os menus certos, e não para qualquer menu, como é o nosso caso - é um engano acreditar que isso acarreta em mais estrutura para a preferência. De fato, a versão fraca de continuidade em EMS em conjunto com o axioma de \emph{Certainty Independence} são suficientes para fazer valer a forma mais forte que assumimos\footnote{Para ver isto, basta refazer os passos iniciais da demonstração do Teorema da Utilidade Esperado, utilizando os menus $\Delta(B)$ e $\{b_*\}$ como melhor e pior menus, respectivamente. Adicionalmente, repare que podemos demonstrar a unicidade do menu indiferente $x_p$ na \thref{menucertoind}.}. A opção de axiomatização que fizemos, contudo, nos permitiu aproveitar o resultado da representação para preferências incompletas de \cite{Kochov2007}, à semelhança do que é feito no caso de preferências sobre atos, onde a representação em \cite{Bewley1986a} pode ser usada como degrau para se chegar ao resultado clássico de \cite{Gilboa1989}\footnote{Para uma versão completa dessa demonstração, ver \cite{Riella2014}.}.
 
 Recorde-se que, ao assumir \emph{IR} na preferência, estamos supondo que a ambiguidade não persiste após a realização de um estado no espaço subjetivo do agente. Se, entretanto, a imprecisão das contingências remanesce no estágio de escolha das loterias, EMS mostram que é possível obter a seguinte representação
 $$W(x)=\int \min_{\pi\in\Pi} \max_{\beta\in x}u(\beta)d\pi(u) $$
